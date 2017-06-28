@@ -1,0 +1,530 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FB3DC4721F042464006DCBB7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB3DC4711F042464006DCBB7 /* AppDelegate.swift */; };
+		FB3DC4741F042464006DCBB7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB3DC4731F042464006DCBB7 /* ViewController.swift */; };
+		FB3DC4771F042464006DCBB7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB3DC4751F042464006DCBB7 /* Main.storyboard */; };
+		FB3DC4791F042464006DCBB7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB3DC4781F042464006DCBB7 /* Assets.xcassets */; };
+		FB3DC47C1F042464006DCBB7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB3DC47A1F042464006DCBB7 /* LaunchScreen.storyboard */; };
+		FB3DC4871F042464006DCBB7 /* StateTriviaAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB3DC4861F042464006DCBB7 /* StateTriviaAppTests.swift */; };
+		FB3DC4921F042464006DCBB7 /* StateTriviaAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB3DC4911F042464006DCBB7 /* StateTriviaAppUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FB3DC4831F042464006DCBB7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FB3DC4661F042464006DCBB7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FB3DC46D1F042464006DCBB7;
+			remoteInfo = StateTriviaApp;
+		};
+		FB3DC48E1F042464006DCBB7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FB3DC4661F042464006DCBB7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FB3DC46D1F042464006DCBB7;
+			remoteInfo = StateTriviaApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FB3DC46E1F042464006DCBB7 /* StateTriviaApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StateTriviaApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB3DC4711F042464006DCBB7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FB3DC4731F042464006DCBB7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FB3DC4761F042464006DCBB7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FB3DC4781F042464006DCBB7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FB3DC47B1F042464006DCBB7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FB3DC47D1F042464006DCBB7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB3DC4821F042464006DCBB7 /* StateTriviaAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StateTriviaAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB3DC4861F042464006DCBB7 /* StateTriviaAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateTriviaAppTests.swift; sourceTree = "<group>"; };
+		FB3DC4881F042464006DCBB7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB3DC48D1F042464006DCBB7 /* StateTriviaAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StateTriviaAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB3DC4911F042464006DCBB7 /* StateTriviaAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateTriviaAppUITests.swift; sourceTree = "<group>"; };
+		FB3DC4931F042464006DCBB7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FB3DC46B1F042464006DCBB7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB3DC47F1F042464006DCBB7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB3DC48A1F042464006DCBB7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FB3DC4651F042464006DCBB7 = {
+			isa = PBXGroup;
+			children = (
+				FB3DC4701F042464006DCBB7 /* StateTriviaApp */,
+				FB3DC4851F042464006DCBB7 /* StateTriviaAppTests */,
+				FB3DC4901F042464006DCBB7 /* StateTriviaAppUITests */,
+				FB3DC46F1F042464006DCBB7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FB3DC46F1F042464006DCBB7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FB3DC46E1F042464006DCBB7 /* StateTriviaApp.app */,
+				FB3DC4821F042464006DCBB7 /* StateTriviaAppTests.xctest */,
+				FB3DC48D1F042464006DCBB7 /* StateTriviaAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FB3DC4701F042464006DCBB7 /* StateTriviaApp */ = {
+			isa = PBXGroup;
+			children = (
+				FB3DC4711F042464006DCBB7 /* AppDelegate.swift */,
+				FB3DC4731F042464006DCBB7 /* ViewController.swift */,
+				FB3DC4751F042464006DCBB7 /* Main.storyboard */,
+				FB3DC4781F042464006DCBB7 /* Assets.xcassets */,
+				FB3DC47A1F042464006DCBB7 /* LaunchScreen.storyboard */,
+				FB3DC47D1F042464006DCBB7 /* Info.plist */,
+			);
+			path = StateTriviaApp;
+			sourceTree = "<group>";
+		};
+		FB3DC4851F042464006DCBB7 /* StateTriviaAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				FB3DC4861F042464006DCBB7 /* StateTriviaAppTests.swift */,
+				FB3DC4881F042464006DCBB7 /* Info.plist */,
+			);
+			path = StateTriviaAppTests;
+			sourceTree = "<group>";
+		};
+		FB3DC4901F042464006DCBB7 /* StateTriviaAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FB3DC4911F042464006DCBB7 /* StateTriviaAppUITests.swift */,
+				FB3DC4931F042464006DCBB7 /* Info.plist */,
+			);
+			path = StateTriviaAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FB3DC46D1F042464006DCBB7 /* StateTriviaApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB3DC4961F042464006DCBB7 /* Build configuration list for PBXNativeTarget "StateTriviaApp" */;
+			buildPhases = (
+				FB3DC46A1F042464006DCBB7 /* Sources */,
+				FB3DC46B1F042464006DCBB7 /* Frameworks */,
+				FB3DC46C1F042464006DCBB7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StateTriviaApp;
+			productName = StateTriviaApp;
+			productReference = FB3DC46E1F042464006DCBB7 /* StateTriviaApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FB3DC4811F042464006DCBB7 /* StateTriviaAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB3DC4991F042464006DCBB7 /* Build configuration list for PBXNativeTarget "StateTriviaAppTests" */;
+			buildPhases = (
+				FB3DC47E1F042464006DCBB7 /* Sources */,
+				FB3DC47F1F042464006DCBB7 /* Frameworks */,
+				FB3DC4801F042464006DCBB7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FB3DC4841F042464006DCBB7 /* PBXTargetDependency */,
+			);
+			name = StateTriviaAppTests;
+			productName = StateTriviaAppTests;
+			productReference = FB3DC4821F042464006DCBB7 /* StateTriviaAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FB3DC48C1F042464006DCBB7 /* StateTriviaAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB3DC49C1F042464006DCBB7 /* Build configuration list for PBXNativeTarget "StateTriviaAppUITests" */;
+			buildPhases = (
+				FB3DC4891F042464006DCBB7 /* Sources */,
+				FB3DC48A1F042464006DCBB7 /* Frameworks */,
+				FB3DC48B1F042464006DCBB7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FB3DC48F1F042464006DCBB7 /* PBXTargetDependency */,
+			);
+			name = StateTriviaAppUITests;
+			productName = StateTriviaAppUITests;
+			productReference = FB3DC48D1F042464006DCBB7 /* StateTriviaAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FB3DC4661F042464006DCBB7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Sakina Ali";
+				TargetAttributes = {
+					FB3DC46D1F042464006DCBB7 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+					FB3DC4811F042464006DCBB7 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FB3DC46D1F042464006DCBB7;
+					};
+					FB3DC48C1F042464006DCBB7 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FB3DC46D1F042464006DCBB7;
+					};
+				};
+			};
+			buildConfigurationList = FB3DC4691F042464006DCBB7 /* Build configuration list for PBXProject "StateTriviaApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FB3DC4651F042464006DCBB7;
+			productRefGroup = FB3DC46F1F042464006DCBB7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FB3DC46D1F042464006DCBB7 /* StateTriviaApp */,
+				FB3DC4811F042464006DCBB7 /* StateTriviaAppTests */,
+				FB3DC48C1F042464006DCBB7 /* StateTriviaAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FB3DC46C1F042464006DCBB7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB3DC47C1F042464006DCBB7 /* LaunchScreen.storyboard in Resources */,
+				FB3DC4791F042464006DCBB7 /* Assets.xcassets in Resources */,
+				FB3DC4771F042464006DCBB7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB3DC4801F042464006DCBB7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB3DC48B1F042464006DCBB7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FB3DC46A1F042464006DCBB7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB3DC4741F042464006DCBB7 /* ViewController.swift in Sources */,
+				FB3DC4721F042464006DCBB7 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB3DC47E1F042464006DCBB7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB3DC4871F042464006DCBB7 /* StateTriviaAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB3DC4891F042464006DCBB7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB3DC4921F042464006DCBB7 /* StateTriviaAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FB3DC4841F042464006DCBB7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FB3DC46D1F042464006DCBB7 /* StateTriviaApp */;
+			targetProxy = FB3DC4831F042464006DCBB7 /* PBXContainerItemProxy */;
+		};
+		FB3DC48F1F042464006DCBB7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FB3DC46D1F042464006DCBB7 /* StateTriviaApp */;
+			targetProxy = FB3DC48E1F042464006DCBB7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FB3DC4751F042464006DCBB7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FB3DC4761F042464006DCBB7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FB3DC47A1F042464006DCBB7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FB3DC47B1F042464006DCBB7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FB3DC4941F042464006DCBB7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FB3DC4951F042464006DCBB7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FB3DC4971F042464006DCBB7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = StateTriviaApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Life-Is-Good.StateTriviaApp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		FB3DC4981F042464006DCBB7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = StateTriviaApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Life-Is-Good.StateTriviaApp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		FB3DC49A1F042464006DCBB7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = StateTriviaAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Life-Is-Good.StateTriviaAppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StateTriviaApp.app/StateTriviaApp";
+			};
+			name = Debug;
+		};
+		FB3DC49B1F042464006DCBB7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = StateTriviaAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Life-Is-Good.StateTriviaAppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StateTriviaApp.app/StateTriviaApp";
+			};
+			name = Release;
+		};
+		FB3DC49D1F042464006DCBB7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = StateTriviaAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Life-Is-Good.StateTriviaAppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = StateTriviaApp;
+			};
+			name = Debug;
+		};
+		FB3DC49E1F042464006DCBB7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = StateTriviaAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Life-Is-Good.StateTriviaAppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = StateTriviaApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FB3DC4691F042464006DCBB7 /* Build configuration list for PBXProject "StateTriviaApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB3DC4941F042464006DCBB7 /* Debug */,
+				FB3DC4951F042464006DCBB7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB3DC4961F042464006DCBB7 /* Build configuration list for PBXNativeTarget "StateTriviaApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB3DC4971F042464006DCBB7 /* Debug */,
+				FB3DC4981F042464006DCBB7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FB3DC4991F042464006DCBB7 /* Build configuration list for PBXNativeTarget "StateTriviaAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB3DC49A1F042464006DCBB7 /* Debug */,
+				FB3DC49B1F042464006DCBB7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FB3DC49C1F042464006DCBB7 /* Build configuration list for PBXNativeTarget "StateTriviaAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB3DC49D1F042464006DCBB7 /* Debug */,
+				FB3DC49E1F042464006DCBB7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FB3DC4661F042464006DCBB7 /* Project object */;
+}
