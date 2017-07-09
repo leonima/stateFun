@@ -781,8 +781,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="28" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nT8-vt-7dw">
-                                <rect key="frame" x="72" y="116" width="270" height="568"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="28" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nT8-vt-7dw">
+                                <rect key="frame" x="20" y="64" width="374" height="672"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="23"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -790,10 +790,10 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstAttribute="trailingMargin" secondItem="nT8-vt-7dw" secondAttribute="trailing" constant="52" id="Iky-8p-gPa"/>
-                            <constraint firstItem="c70-1w-gYE" firstAttribute="top" secondItem="nT8-vt-7dw" secondAttribute="bottom" constant="52" id="bwT-gG-rTs"/>
-                            <constraint firstItem="nT8-vt-7dw" firstAttribute="top" secondItem="Sg6-bO-5My" secondAttribute="bottom" constant="52" id="lxT-Yf-bh7"/>
-                            <constraint firstItem="nT8-vt-7dw" firstAttribute="leading" secondItem="slM-N1-CeC" secondAttribute="leadingMargin" constant="52" id="xTG-ds-YPE"/>
+                            <constraint firstItem="nT8-vt-7dw" firstAttribute="top" secondItem="Sg6-bO-5My" secondAttribute="bottom" id="8ej-SD-aVl"/>
+                            <constraint firstItem="nT8-vt-7dw" firstAttribute="leading" secondItem="slM-N1-CeC" secondAttribute="leadingMargin" id="LBi-hA-OYV"/>
+                            <constraint firstItem="c70-1w-gYE" firstAttribute="top" secondItem="nT8-vt-7dw" secondAttribute="bottom" id="eF8-oc-kOv"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="nT8-vt-7dw" secondAttribute="trailing" id="lX1-59-JUK"/>
                         </constraints>
                     </view>
                     <connections>
