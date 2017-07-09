@@ -18,6 +18,8 @@
 		FB3DC47C1F042464006DCBB7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB3DC47A1F042464006DCBB7 /* LaunchScreen.storyboard */; };
 		FB3DC4871F042464006DCBB7 /* StateTriviaAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB3DC4861F042464006DCBB7 /* StateTriviaAppTests.swift */; };
 		FB3DC4921F042464006DCBB7 /* StateTriviaAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB3DC4911F042464006DCBB7 /* StateTriviaAppUITests.swift */; };
+		FB67E29E1F0F208700D8C93F /* SwiftyJSON-1.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB67E29D1F0F208700D8C93F /* SwiftyJSON-1.swift */; };
+		FBCC3F211F11620100F35FAD /* apiQoshish.txt in Resources */ = {isa = PBXBuildFile; fileRef = FBCC3F201F11620100F35FAD /* apiQoshish.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +57,8 @@
 		FB3DC48D1F042464006DCBB7 /* StateTriviaAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StateTriviaAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB3DC4911F042464006DCBB7 /* StateTriviaAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateTriviaAppUITests.swift; sourceTree = "<group>"; };
 		FB3DC4931F042464006DCBB7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB67E29D1F0F208700D8C93F /* SwiftyJSON-1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SwiftyJSON-1.swift"; sourceTree = "<group>"; };
+		FBCC3F201F11620100F35FAD /* apiQoshish.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = apiQoshish.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +109,8 @@
 		FB3DC4701F042464006DCBB7 /* StateTriviaApp */ = {
 			isa = PBXGroup;
 			children = (
+				FBCC3F201F11620100F35FAD /* apiQoshish.txt */,
+				FB67E29D1F0F208700D8C93F /* SwiftyJSON-1.swift */,
 				FB3DC4711F042464006DCBB7 /* AppDelegate.swift */,
 				FB3DC4731F042464006DCBB7 /* ViewController.swift */,
 				FB3DC4751F042464006DCBB7 /* Main.storyboard */,
@@ -245,6 +251,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FB3DC47C1F042464006DCBB7 /* LaunchScreen.storyboard in Resources */,
+				FBCC3F211F11620100F35FAD /* apiQoshish.txt in Resources */,
 				FB3DC4791F042464006DCBB7 /* Assets.xcassets in Resources */,
 				FB3DC4771F042464006DCBB7 /* Main.storyboard in Resources */,
 			);
@@ -272,6 +279,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				983D51C41F0537660048D2EB /* QuizViewController.swift in Sources */,
+				FB67E29E1F0F208700D8C93F /* SwiftyJSON-1.swift in Sources */,
 				FB3DC4741F042464006DCBB7 /* ViewController.swift in Sources */,
 				983D51C81F0D2C240048D2EB /* DetailViewController.swift in Sources */,
 				FB3DC4721F042464006DCBB7 /* AppDelegate.swift in Sources */,
