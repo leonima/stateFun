@@ -46,7 +46,7 @@ class MainViewController: UIViewController, UITableViewDelegate, UITableViewData
             let statePop = elements["statePop"].stringValue
             let statehoodYear = elements["statehoodYear"].stringValue
             let statehoodNumber = elements["statehoodNumber"].stringValue
-            let nickname = elements["nickname"].stringValue
+            let nickName = elements["nickName"].stringValue
             let stateCapital = elements["stateCapital"].stringValue
             let stateBigCity = elements["stateBigCity"].stringValue
             let stateAbbreviation = elements["stateAbbreviation"].stringValue
@@ -56,7 +56,7 @@ class MainViewController: UIViewController, UITableViewDelegate, UITableViewData
             let stateTree = elements["stateTree"].stringValue
             let stateFact = elements["stateFact"].stringValue
             
-            let object = ["stateName": stateName, "statePop": statePop, "statehoodYear": statehoodYear, "statehoodNumber": statehoodNumber, "nickname": nickname, "stateCapital": stateCapital, "stateBigCity": stateBigCity, "stateAbbreviation": stateAbbreviation, "stateBird": stateBird, "stateFlower": stateFlower, "stateFish": stateFish, "stateTree": stateTree, "stateFact": stateFact]
+            let object = ["stateName": stateName, "statePop": statePop, "statehoodYear": statehoodYear, "statehoodNumber": statehoodNumber, "nickName": nickName, "stateCapital": stateCapital, "stateBigCity": stateBigCity, "stateAbbreviation": stateAbbreviation, "stateBird": stateBird, "stateFlower": stateFlower, "stateFish": stateFish, "stateTree": stateTree, "stateFact": stateFact]
             states.append(object)
             
         }

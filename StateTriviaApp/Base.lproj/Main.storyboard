@@ -781,15 +781,20 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="28" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nT8-vt-7dw">
-                                <rect key="frame" x="56" y="234" width="302" height="268"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="28" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nT8-vt-7dw">
+                                <rect key="frame" x="72" y="116" width="270" height="568"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="23"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailingMargin" secondItem="nT8-vt-7dw" secondAttribute="trailing" constant="52" id="Iky-8p-gPa"/>
+                            <constraint firstItem="c70-1w-gYE" firstAttribute="top" secondItem="nT8-vt-7dw" secondAttribute="bottom" constant="52" id="bwT-gG-rTs"/>
+                            <constraint firstItem="nT8-vt-7dw" firstAttribute="top" secondItem="Sg6-bO-5My" secondAttribute="bottom" constant="52" id="lxT-Yf-bh7"/>
+                            <constraint firstItem="nT8-vt-7dw" firstAttribute="leading" secondItem="slM-N1-CeC" secondAttribute="leadingMargin" constant="52" id="xTG-ds-YPE"/>
+                        </constraints>
                     </view>
                     <connections>
                         <outlet property="myLabel" destination="nT8-vt-7dw" id="Fpy-7e-4Dm"/>

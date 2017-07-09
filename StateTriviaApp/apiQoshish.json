@@ -6,7 +6,7 @@
 			"stateName": "Alabama",
 			"statePop": "4,858,979",
 			"statehoodYear": 1819,
-			"statehoodNumber": 22,
+			"statehoodNumber": "22nd",
 			"nickName": "The Heart of Dixie",
 			"stateCapital": "Montgomery",
 			"stateBigCity": "Birmingham",
@@ -15,13 +15,13 @@
 			"stateFlower": "Camelia",
 			"stateFish": "Largemouth Bass",
 			"stateTree": "Southern Longleaf Pine",
-			"stateFact": "the Wright Brothers started the first flight school in Alabama."
+			"stateFact": "the Wright Brothers started the first flight school in Alabama"
 		},
 		{
 			"stateName": "Alaska",
 			"statePop": "738,432",
 			"statehoodYear": 1959,
-			"statehoodNumber": 49,
+			"statehoodNumber": "49th",
 			"nickName": "The Last Frontier",
 			"stateCapital": "Juneau",
 			"stateBigCity": "Anchorage",
@@ -30,13 +30,13 @@
 			"stateFlower": "Forget - Me - Not(Scorpian Grasses)",
 			"stateFish": "King Salmon",
 			"stateTree": "Sitka Spruce",
-			"stateFact": "Mount McKinley is the tallest mountain in all of North America."
+			"stateFact": "Mount McKinley is the tallest mountain in all of North America"
 		},
 		{
 			"stateName": "Arizona",
 			"statePop": "6,828,065",
 			"statehoodYear": 1912,
-			"statehoodNumber": 48,
+			"statehoodNumber": "48th",
 			"nickName": "The Grand Canyon State",
 			"stateCapital": "Phoenix",
 			"stateBigCity": "Phoenix",
@@ -45,28 +45,28 @@
 			"stateFlower": "Saguaro Cactus Blossom",
 			"stateFish": "Apache Trout",
 			"stateTree": "Palo Verde",
-			"stateFact": "Arizona is home to the Gila Monster, the only poisonous lizard in the United States."
+			"stateFact": "Arizona is home to the Gila Monster, the only poisonous lizard in the United States"
 		},
 		{
 			"stateName": "Arkansas",
 			"statePop": "2,988,248",
 			"statehoodYear": 1836,
-			"statehoodNumber": 25,
+			"statehoodNumber": "25th",
 			"nickName": "The Natural State",
 			"stateCapital": "Little Rock",
 			"stateBigCity": "Little Rock",
 			"stateAbbreviation": "AR",
 			"stateBird": "Mockingbird",
 			"stateFlower": "Apple Blossom",
-			"stateFish": "",
+			"stateFish": "nothing",
 			"stateTree": "Pine Tree",
-			"stateFact": "Arkansas is pronounced‘ Arkansaw’. It is against the law to say it wrong. Also this state has no state fish."
+			"stateFact": "Arkansas is pronounced‘ Arkansaw’. It is against the law to say it wrong. Also this state has no state fish"
 		},
 		{
 			"stateName": "California",
 			"statePop": "39,144,818",
 			"statehoodYear": 1850,
-			"statehoodNumber": 31,
+			"statehoodNumber": "31st",
 			"nickName": "The Golden State",
 			"stateCapital": "Sacramento",
 			"stateBigCity": "Los Angeles",
@@ -75,13 +75,13 @@
 			"stateFlower": "California Poppy",
 			"stateFish": "Golden Trout and the Garibaldi",
 			"stateTree": "Redwood",
-			"stateFact": "you can drive through a giant Redwood tree in California’s Kings Canyon and while Arkansas doesn’t have a state fish, California has two."
+			"stateFact": "you can drive through a giant Redwood tree in California’s Kings Canyon and while Arkansas doesn’t have a state fish, California has two"
 		},
 		{
 			"stateName": "Colorado",
 			"statePop": "5,456,574",
 			"statehoodYear": 1876,
-			"statehoodNumber": 38,
+			"statehoodNumber": "38th",
 			"nickName": "The Centennial State",
 			"stateCapital": "Denver",
 			"stateBigCity": "Denver",
@@ -90,13 +90,13 @@
 			"stateFlower": "White and Lavender Columbine",
 			"stateFish": "Greenback Cutthroat Trout",
 			"stateTree": "Colorado Blue Spruce",
-			"stateFact": "the capital of Colorado, Denver is almost exactly 1 mile above sea level. This is how it earned the nickname 'Mile High City'."
+			"stateFact": "the capital of Colorado, Denver is almost exactly 1 mile above sea level. This is how it earned the nickname 'Mile High City'"
 		},
 		{
 			"stateName": "Connecticut",
 			"statePop": "3,590,886",
 			"statehoodYear": 1788,
-			"statehoodNumber": 5,
+			"statehoodNumber": "5th",
 			"nickName": "The Constitution State",
 			"stateCapital": "Hartford",
 			"stateBigCity": "Bridgeport",
@@ -105,13 +105,13 @@
 			"stateFlower": "Mountain Laurel",
 			"stateFish": "American Shad",
 			"stateTree": "White Oak",
-			"stateFact": "the first hamburger was made in New Haven, Connecticut."
+			"stateFact": "the first hamburger was made in New Haven, Connecticut"
 		},
 		{
 			"stateName": "Delaware",
 			"statePop": "952,065",
 			"statehoodYear": 1787,
-			"statehoodNumber": 1,
+			"statehoodNumber": "1st",
 			"nickName": "The First State",
 			"stateCapital": "Dover",
 			"stateBigCity": "Wilmington",
@@ -120,13 +120,13 @@
 			"stateFlower": "Peach Blossom",
 			"stateFish": "Weakfish",
 			"stateTree": "American Holly",
-			"stateFact": "the official state insect of Delaware is a ladybug."
+			"stateFact": "the official state insect of Delaware is a ladybug"
 		},
 		{
 			"stateName": "Florida",
 			"statePop": "20,271,272",
 			"statehoodYear": 1845,
-			"statehoodNumber": 27,
+			"statehoodNumber": "27th",
 			"nickName": "The Sunshine State",
 			"stateCapital": "Tallahassee",
 			"stateBigCity": "Jacksonville",
@@ -135,13 +135,13 @@
 			"stateFlower": "Orange Blossom",
 			"stateFish": "Largemouth Bass and Atlantic Sailfish",
 			"stateTree": "Sabal Palm",
-			"stateFact": "Florida is sometimes called the Alligator State because of all the alligators that live there. Also, the University of Florida's mascot is the Gator. This is where Gatorade was first invented."
+			"stateFact": "Florida is sometimes called the Alligator State because of all the alligators that live there. Also, the University of Florida's mascot is the Gator. This is where Gatorade was first invented"
 		},
 		{
 			"stateName": "Georgia",
 			"statePop": "10,214,860",
 			"statehoodYear": 1788,
-			"statehoodNumber": 4,
+			"statehoodNumber": "4th",
 			"nickName": "The Peach State",
 			"stateCapital": "Atlanta",
 			"stateBigCity": "Atlanta",
@@ -150,13 +150,13 @@
 			"stateFlower": "Cherokee Rose",
 			"stateFish": "Largemouth Bass",
 			"stateTree": "Live Oak",
-			"stateFact": "why didn’t the chicken cross the road in Quitman, Georgia? Because it is illegal there! It is illegal to let a chicken cross an open road in Georgia."
+			"stateFact": "why didn’t the chicken cross the road in Quitman, Georgia? Because it is illegal there! It is illegal to let a chicken cross an open road in Georgia"
 		},
 		{
 			"stateName": "Hawaii",
 			"statePop": "1,431,603",
 			"statehoodYear": 1959,
-			"statehoodNumber": 50,
+			"statehoodNumber": "50th",
 			"nickName": "The Aloha State",
 			"stateCapital": "Honolulu",
 			"stateBigCity": "Honolulu",
@@ -165,13 +165,13 @@
 			"stateFlower": "Yellow Hibiscus",
 			"stateFish": "Reef Triggerfish",
 			"stateTree": "Kukui(Candlenut)",
-			"stateFact": "there are only 12 letters in the Hawaiian alphabet."
+			"stateFact": "there are only 12 letters in the Hawaiian alphabet"
 		},
 		{
 			"stateName": "Idaho",
 			"statePop": "1,683,140",
 			"statehoodYear": 1890,
-			"statehoodNumber": 43,
+			"statehoodNumber": "43rd",
 			"nickName": "The Gem State",
 			"stateCapital": "Boise",
 			"stateBigCity": "Boise",
@@ -180,13 +180,13 @@
 			"stateFlower": "Syringa",
 			"stateFish": "Cutthroat Trout",
 			"stateTree": "Western White Pine",
-			"stateFact": "there are more miles of river in Idaho, than any other state."
+			"stateFact": "there are more miles of river in Idaho, than any other state"
 		},
 		{
 			"stateName": "Illinois",
 			"statePop": "12,801,539",
 			"statehoodYear": 1818,
-			"statehoodNumber": 21,
+			"statehoodNumber": "21st",
 			"nickName": "The Prairie State",
 			"stateCapital": "Springfield",
 			"stateBigCity": "Chicago",
@@ -195,28 +195,28 @@
 			"stateFlower": "Violet",
 			"stateFish": "Bluegill",
 			"stateTree": "White Oak",
-			"stateFact": "the makers of this app are from Illinois."
+			"stateFact": "the makers of this app are from Illinois"
 		},
 		{
 			"stateName": "Indiana",
 			"statePop": "6,663,053",
 			"statehoodYear": 1816,
-			"statehoodNumber": 19,
+			"statehoodNumber": "19th",
 			"nickName": "The Hoosier State",
 			"stateCapital": "Indianapolis",
 			"stateBigCity": "Indianapolis",
 			"stateAbbreviation": "IN",
 			"stateBird": "Cardinal",
 			"stateFlower": "Peony",
-			"stateFish": "",
+			"stateFish": "nothing, this state has no state fish",
 			"stateTree": "Tulip Tree",
-			"stateFact": "Indiana has a city named Santa Claus. Every year thousands of letters are mailed there at Christmas time."
+			"stateFact": "Indiana has a city named Santa Claus. Every year thousands of letters are mailed there at Christmas time"
 		},
 		{
 			"stateName": "Iowa",
 			"statePop": "3,134,693",
 			"statehoodYear": 1846,
-			"statehoodNumber": 29,
+			"statehoodNumber": "29th",
 			"nickName": "The Hawkeye State",
 			"stateCapital": "Des Moines",
 			"stateBigCity": "Des Moines",
@@ -225,28 +225,28 @@
 			"stateFlower": "Wild Rose",
 			"stateFish": "Channel Catfish",
 			"stateTree": "Oak",
-			"stateFact": "Iowa is the only US state name that begins with two vowels."
+			"stateFact": "Iowa is the only US state name that begins with two vowels"
 		},
 		{
 			"stateName": "Kansas",
 			"statePop": "2,911,641",
 			"statehoodYear": 1861,
-			"statehoodNumber": 34,
+			"statehoodNumber": "34th",
 			"nickName": "The Sunflower State",
 			"stateCapital": "Topeka",
 			"stateBigCity": "Wichita",
 			"stateAbbreviation": "KS",
 			"stateBird": "Western Meadowlark",
 			"stateFlower": "Sunflower",
-			"stateFish": "",
+			"stateFish": "nothing, this state has no state fish",
 			"stateTree": "Cottonwood",
-			"stateFact": "Kansas produces enough wheat in a year to provide every person on earth with six loaves of bread."
+			"stateFact": "Kansas produces enough wheat in a year to provide every person on earth with six loaves of bread"
 		},
 		{
 			"stateName": "Kentucky",
 			"statePop": "4,425,092",
 			"statehoodYear": 1792,
-			"statehoodNumber": 15,
+			"statehoodNumber": "15th",
 			"nickName": "The Bluegrass State",
 			"stateCapital": "Frankfort",
 			"stateBigCity": "Louisville",
@@ -255,13 +255,13 @@
 			"stateFlower": "Goldenrod",
 			"stateFish": "Kentucky Bass",
 			"stateTree": "Tulip Poplar",
-			"stateFact": "Kentucky is on of three states, including Colorado and California, who claim to have invented the cheeseburger."
+			"stateFact": "Kentucky is on of three states, including Colorado and California, who claim to have invented the cheeseburger"
 		},
 		{
 			"stateName": "Louisiana",
 			"statePop": "4,681,666",
 			"statehoodYear": 1812,
-			"statehoodNumber": 18,
+			"statehoodNumber": "18th",
 			"nickName": "The Pelican State",
 			"stateCapital": "Baton Rogue",
 			"stateBigCity": "New Orleans",
@@ -270,13 +270,13 @@
 			"stateFlower": "Magnolia",
 			"stateFish": "White Perch(Sac - Au - Lait) and Spotted Sea Trout",
 			"stateTree": "Baldcypress",
-			"stateFact": "Louisiana is named after King Louis XIV."
+			"stateFact": "Louisiana is named after King Louis XIV"
 		},
 		{
 			"stateName": "Maine",
 			"statePop": "41,331,479",
 			"statehoodYear": 1820,
-			"statehoodNumber": 23,
+			"statehoodNumber": "23rd",
 			"nickName": "The Pine Tree State",
 			"stateCapital": "Augusta",
 			"stateBigCity": "Portland",
@@ -285,13 +285,13 @@
 			"stateFlower": "White Pinecone and Tassel",
 			"stateFish": "Land - Locked Salmon",
 			"stateTree": "White Pine",
-			"stateFact": "when people say 'bugs' in Maine they are often referring to lobsters."
+			"stateFact": "when people say 'bugs' in Maine they are often referring to lobsters"
 		},
 		{
 			"stateName": "Maryland",
 			"statePop": "6,016,447",
 			"statehoodYear": 1788,
-			"statehoodNumber": 7,
+			"statehoodNumber": "7th",
 			"nickName": "The Old Line State ",
 			"stateCapital": "Annapolis",
 			"stateBigCity": "Baltimore",
@@ -300,13 +300,13 @@
 			"stateFlower": "Black - Eyed Susan",
 			"stateFish": "Rockfish",
 			"stateTree": "White Oak",
-			"stateFact": "the first school in the United States was the King William’s School. It opened in 1696 in Maryland."
+			"stateFact": "the first school in the United States was the King William’s School. It opened in 1696 in Maryland"
 		},
 		{
 			"stateName": "Massachusetts",
 			"statePop": "6,811,779",
 			"statehoodYear": 1788,
-			"statehoodNumber": 6,
+			"statehoodNumber": "6th",
 			"nickName": "The Bay State",
 			"stateCapital": "Boston",
 			"stateBigCity": "Boston",
@@ -315,13 +315,13 @@
 			"stateFlower": "Mayflower",
 			"stateFish": "Atlantic Cod",
 			"stateTree": "Elm",
-			"stateFact": "four US presidents were born in Massachusetts, John Adams, John Quincy Adams, John Fitzgerald Kennedy, and George H.W. Bush were all born in Massachusetts."
+			"stateFact": "four US presidents were born in Massachusetts, John Adams, John Quincy Adams, John Fitzgerald Kennedy, and George H.W. Bush were all born in Massachusetts"
 		},
 		{
 			"stateName": "Michigan",
 			"statePop": "9,928,300",
 			"statehoodYear": 1837,
-			"statehoodNumber": 26,
+			"statehoodNumber": "26th",
 			"nickName": "The Wolverine State",
 			"stateCapital": "Lansing",
 			"stateBigCity": "Detroit",
@@ -330,13 +330,13 @@
 			"stateFlower": "Apple Blossom",
 			"stateFish": "Brook Trout",
 			"stateTree": "White Pine",
-			"stateFact": "no matter where you are in Michigan, you are always within 85 miles of a Great Lake."
+			"stateFact": "no matter where you are in Michigan, you are always within 85 miles of a Great Lake"
 		},
 		{
 			"stateName": "Minnesota",
 			"statePop": "5,519,952",
 			"statehoodYear": 1858,
-			"statehoodNumber ": 32,
+			"statehoodNumber": "32nd",
 			"nickName": "The North Star State",
 			"stateCapital": "St.Paul",
 			"stateBigCity": "Minneapolis",
@@ -345,13 +345,13 @@
 			"stateFlower": "Pink and White Lady Slipper",
 			"stateFish": "Walleye",
 			"stateTree": "Red Pine",
-			"stateFact": "the Mall of America in Minneapolis is one of the biggest malls in the world. It covers the same ground as 78 football fields!"
+			"stateFact": "the Mall of America in Minneapolis is one of the biggest malls in the world. It covers the same ground as 78 football fields"
 		},
 		{
 			"stateName": "Mississippi",
 			"statePop": "2,988,726",
 			"statehoodYear": 1817,
-			"statehoodNumber": 20,
+			"statehoodNumber": "20th",
 			"nickName": "The Magnolia State",
 			"stateCapital": "Jackson",
 			"stateBigCity ": "Jackson",
@@ -360,13 +360,13 @@
 			"stateFlower ": "Magnolia",
 			"stateFish": "Largemouth Bass",
 			"stateTree": "Magnolia",
-			"stateFact": "the first human lung transplant and heart transplant were performed at the University of Mississippi Medical Center."
+			"stateFact": "the first human lung transplant and heart transplant were performed at the University of Mississippi Medical Center"
 		},
 		{
 			"stateName": "Missouri",
 			"statePop": "26,093,000",
 			"statehoodYear": 1821,
-			"statehoodNumber": 24,
+			"statehoodNumber": "24th",
 			"nickName ": "The Show Me State",
 			"stateCapital ": "Jefferson City",
 			"stateBigCity": "Kansas City",
@@ -375,14 +375,14 @@
 			"stateFlower": "White Hawthorn",
 			"stateFish": "Catfish",
 			"stateTree": "Flowering Dogwood",
-			"stateFact": "the tallest man in history, Robert Wadlow, lived here.He was 8 feet 11 inches tall."
+			"stateFact": "the tallest man in history, Robert Wadlow, lived here.He was 8 feet 11 inches tall"
 
 		},
 		{
 			"stateName": "Montana",
 			"statePop": "26,093,000",
 			"statehoodYear": 1889,
-			"statehoodNumber": 41,
+			"statehoodNumber": "41st",
 			"nickName": "The Treasure State",
 			"stateCapital": "Helena",
 			"stateBigCity": "Billings",
@@ -391,14 +391,14 @@
 			"stateFlower": "Bitterroot",
 			"stateFish": "Blackspotted Cutthroat Trout",
 			"stateTree": "Ponderosa Pine",
-			"stateFact": "the name Montana comes from a Spanish word meaning mountainous. This name if fitting as the state has over 50 mountain ranges."
+			"stateFact": "the name Montana comes from a Spanish word meaning mountainous. This name if fitting as the state has over 50 mountain ranges"
 
 		},
 		{
 			"stateName": "Nebraska",
 			"statePop": "1,907,116",
 			"statehoodYear": 1867,
-			"statehoodNumber": 37,
+			"statehoodNumber": "37th",
 			"nickName": "The Cornhusker State",
 			"stateCapital": "Lincoln",
 			"stateBigCity": "Omaha",
@@ -407,14 +407,14 @@
 			"stateFlower": "Goldenrod",
 			"stateFish": "Channel Catfish",
 			"stateTree": "Eastern Cottonwood",
-			"stateFact": "the world’s largest wholly mammoth fossil was found in Lincoln County."
+			"stateFact": "the world’s largest wholly mammoth fossil was found in Lincoln County"
 
 		},
 		{
 			"stateName": "Nevada",
 			"statePop": "2,890,845",
 			"statehoodYear": 1864,
-			"statehoodNumber": 36,
+			"statehoodNumber": "36th",
 			"nickName": "The Silver State",
 			"stateCapital": "Carson City",
 			"stateBigCity": "Las Vegas",
@@ -423,13 +423,13 @@
 			"stateFlower": "Sagebrush",
 			"stateFish": "Lahontan Cutthroat Trout",
 			"stateTree": "The Single-Leaf Pinon",
-			"stateFact": "Area 51, the place famed for UFO cover-ups, is located in southern Nevada."
+			"stateFact": "Area 51, the place famed for UFO cover-ups, is located in southern Nevada"
 		},
 		{
 			"stateName": "New Hampshire",
 			"statePop": "1,334,795",
 			"statehoodYear": 1788,
-			"statehoodNumber": 9,
+			"statehoodNumber": "9th",
 			"nickName": "The Granite State",
 			"stateCapital": "Concord",
 			"stateBigCity": "Manchester",
@@ -438,13 +438,13 @@
 			"stateFlower": "Purple Lilac",
 			"stateFish": "Brook Trout and Striped Bass",
 			"stateTree": "White Birch",
-			"stateFact": "the top of Mt. Washington in New Hampshire is said to have the worst weather on Earth. A world record for wind speed was clocked here at 231 miles per hour!"
+			"stateFact": "the top of Mt. Washington in New Hampshire is said to have the worst weather on Earth. A world record for wind speed was clocked here at 231 miles per hour"
 		},
 		{
 			"stateName": "New Jersey",
 			"statePop": "8,944,469",
 			"statehoodYear": 1787,
-			"statehoodNumber": 3,
+			"statehoodNumber": "3rd",
 			"nickName": "The Garden State",
 			"stateCapital": "Trenton",
 			"stateBigCity": "Newark",
@@ -453,13 +453,13 @@
 			"stateFlower": "Common Violet",
 			"stateFish": "Brook Trout",
 			"stateTree": "Red Oak",
-			"stateFact": "over 100 battles have been fought on New Jersey soil."
+			"stateFact": "over 100 battles have been fought on New Jersey soil"
 		},
 		{
 			"stateName": "New Mexico",
 			"statePop": "2,085,109",
 			"statehoodYear": 1912,
-			"statehoodNumber": 47,
+			"statehoodNumber": "47th",
 			"nickName": "Land of Enchantment",
 			"stateCapital": "Santa Fe",
 			"stateBigCity": "Albuquerque",
@@ -468,13 +468,13 @@
 			"stateFlower": "Yucca",
 			"stateFish": "Cutthroat Trout",
 			"stateTree": "Pinon Pine",
-			"stateFact": "New Mexico is one of the four state that meet at the Four Corners. You can stand in four states at the same time! The other three states are Colorado, Utah, and Arizona."
+			"stateFact": "New Mexico is one of the four state that meet at the Four Corners. You can stand in four states at the same time! The other three states are Colorado, Utah, and Arizona"
 		},
 		{
 			"stateName": "New York",
 			"statePop": "19,795,791",
 			"statehoodYear": 1788,
-			"statehoodNumber": 11,
+			"statehoodNumber": "11th",
 			"nickName": "The Empire State",
 			"stateCapital": "Albany",
 			"stateBigCity": "New York City",
@@ -483,13 +483,13 @@
 			"stateFlower": "Rose",
 			"stateFish": "Brook Trout and Striped Bass",
 			"stateTree": "Sugar Maple",
-			"stateFact": "Peter Minuit purchased the island of Manhattan from the natives for around $24."
+			"stateFact": "Peter Minuit purchased the island of Manhattan from the natives for around $24"
 		},
 		{
 			"stateName": "North Carolina",
 			"statePop": "10,042,802",
 			"statehoodYear": 1789,
-			"statehoodNumber": 12,
+			"statehoodNumber": "12th",
 			"nickName": "The Tar Heel State",
 			"stateCapital": "Raleigh",
 			"stateBigCity": "Charlotte",
@@ -498,13 +498,13 @@
 			"stateFlower": "Flowering Dogwood",
 			"stateFish": "Channel Bass",
 			"stateTree": "Pine",
-			"stateFact": "Virginia Dare was the first English child born in America in Roanoke, North Carolina in 1587."
+			"stateFact": "Virginia Dare was the first English child born in America in Roanoke, North Carolina in 1587"
 		},
 		{
 			"stateName": "North Dakota",
 			"statePop": "756,927",
 			"statehoodYear": 1889,
-			"statehoodNumber": 39,
+			"statehoodNumber": "39th",
 			"nickName": "The Peace Garden State",
 			"stateCapital": "Bismarck",
 			"stateBigCity": "Fargo",
@@ -513,13 +513,13 @@
 			"stateFlower": "Wild Prairie Rose",
 			"stateFish": "Northern Pike",
 			"stateTree": "American Elm",
-			"stateFact": "the official state beverage of North Dakota is milk."
+			"stateFact": "the official state beverage of North Dakota is milk"
 		},
 		{
 			"stateName": "Ohio",
 			"statePop": "11,614,373",
 			"statehoodYear": 1803,
-			"statehoodNumber": 17,
+			"statehoodNumber": "17th",
 			"nickName": "The Buckeye State",
 			"stateCapital": "Colombus",
 			"stateBigCity": "Colombus",
@@ -528,13 +528,13 @@
 			"stateFlower": "Red Carnation",
 			"stateFish": "Walleye",
 			"stateTree": "The Buckeye",
-			"stateFact": "the first traffic light was in Cleveland, Ohio."
+			"stateFact": "the first traffic light was in Cleveland, Ohio"
 		},
 		{
 			"stateName": "Oklahoma",
 			"statePop": "3,923,561",
 			"statehoodYear": 1907,
-			"statehoodNumber": 46,
+			"statehoodNumber": "46th",
 			"nickName": "The Sooner State",
 			"stateCapital": "Oklahoma City",
 			"stateBigCity": "Oklahoma City",
@@ -543,13 +543,13 @@
 			"stateFlower": "Oklahoma Rose",
 			"stateFish": "White Bass",
 			"stateTree": "Redbud",
-			"stateFact": "the name Sooner State comes from people who tried to sneak into Oklahoma and make land claims 'sooner' that they were allowed."
+			"stateFact": "the name Sooner State comes from people who tried to sneak into Oklahoma and make land claims 'sooner' that they were allowed"
 		},
 		{
 			"stateName": "Oregon",
 			"statePop": "4,093,465",
 			"statehoodYear": 1859,
-			"statehoodNumber": 33,
+			"statehoodNumber": "33rd",
 			"nickName": "The Beaver State",
 			"stateCapital": "Salem",
 			"stateBigCity": "Portland",
@@ -558,13 +558,13 @@
 			"stateFlower": "Oregon Grape",
 			"stateFish": "Chinook Salmon",
 			"stateTree": "Douglas Fir",
-			"stateFact": "the Oregon state flag has a beaver on the back. It is the only US state flag with a different image on the reverse side."
+			"stateFact": "the Oregon state flag has a beaver on the back. It is the only US state flag with a different image on the reverse side"
 		},
 		{
 			"stateName": "Pennsylvania",
 			"statePop": "12,784,227",
 			"statehoodYear": 1787,
-			"statehoodNumber": 2,
+			"statehoodNumber": "2nd",
 			"nickName": "The Keystone State",
 			"stateCapital": "Harrisburg",
 			"stateBigCity": "Philadelphia",
@@ -573,13 +573,13 @@
 			"stateFlower": "Mountain Laurel",
 			"stateFish": "Brook Trout",
 			"stateTree": "Hemlock",
-			"stateFact": "the Constitution of the United States, the Declaration of Independence, and the Gettysburg Address were all written in Pennsylvania."
+			"stateFact": "the Constitution of the United States, the Declaration of Independence, and the Gettysburg Address were all written in Pennsylvania"
 		},
 		{
 			"stateName": "Rhode Island",
 			"statePop": "1,056,426",
 			"statehoodYear": 1790,
-			"statehoodNumber": 13,
+			"statehoodNumber": "13th",
 			"nickName": "The Ocean State",
 			"stateCapital": "Providence",
 			"stateBigCity": "Providence",
@@ -588,13 +588,13 @@
 			"stateFlower": "Violet",
 			"stateFish": "Striped Bass",
 			"stateTree": "Red Maple",
-			"stateFact": "Rhode Island is the smallest state in the United States and it was the last of the original thirteen colonies to become a state."
+			"stateFact": "Rhode Island is the smallest state in the United States and it was the last of the original thirteen colonies to become a state"
 		},
 		{
 			"stateName": "South Carolina",
 			"statePop": "4,961,119",
 			"statehoodYear": 1788,
-			"statehoodNumber": 8,
+			"statehoodNumber": "8th",
 			"nickName": "The Palmetto State",
 			"stateCapital": "Columbia",
 			"stateBigCity": "Columbia",
@@ -603,13 +603,13 @@
 			"stateFlower": "Yellow Jessamine",
 			"stateFish": "Striped Bass",
 			"stateTree": "Palmetto",
-			"stateFact": "the state tree of South Carolina, the Palmetto Tree, was used to build the walls for a fort on Sullivan Island.The rubbery trees were a great defense as cannon balls bounced right off them!"
+			"stateFact": "the state tree of South Carolina, the Palmetto Tree, was used to build the walls for a fort on Sullivan Island.The rubbery trees were a great defense as cannon balls bounced right off them"
 		},
 		{
 			"stateName": "South Dakota",
 			"statePop": "858,469",
 			"statehoodYear": 1889,
-			"statehoodNumber": 40,
+			"statehoodNumber": "40th",
 			"nickName": "The Mount Rushmore State",
 			"stateCapital": "Pierre",
 			"stateBigCity": "Sioux Falls",
@@ -618,13 +618,13 @@
 			"stateFlower": "Pasque Flower",
 			"stateFish": "Walleye",
 			"stateTree": "Black Hills Spruce",
-			"stateFact": "North and South Dakota were admitted on the same day to avoid a feud between the states."
+			"stateFact": "North and South Dakota were admitted on the same day to avoid a feud between the states"
 		},
 		{
 			"stateName": "Tennessee",
 			"statePop": "6,651,194",
 			"statehoodYear": 1796,
-			"statehoodNumber": 16,
+			"statehoodNumber": "16th",
 			"nickName": "The Volunteer State",
 			"stateCapital": "Nashville",
 			"stateBigCity": "Memphis",
@@ -633,13 +633,13 @@
 			"stateFlower": "Iris",
 			"stateFish": "Channel Catfish",
 			"stateTree": "Tulip Poplar",
-			"stateFact": "Tennessee borders 8 other states."
+			"stateFact": "Tennessee borders 8 other states"
 		},
 		{
 			"stateName": "Texas",
 			"statePop": "27,469,114",
 			"statehoodYear": 1845,
-			"statehoodNumber": 28,
+			"statehoodNumber": "28th",
 			"nickName": "The Lone Star State",
 			"stateCapital": "Austin",
 			"stateBigCity": "Houston",
@@ -648,13 +648,13 @@
 			"stateFlower": "Bluebonnet",
 			"stateFish": "Guadalupe Bass",
 			"stateTree": "Pecan",
-			"stateFact": "El Paso, Texas is closer to the border of California than it is to Dallas, Texas. That’ s how big Texas is!"
+			"stateFact": "El Paso, Texas is closer to the border of California than it is to Dallas, Texas. That’ s how big Texas is"
 		},
 		{
 			"stateName": "Utah",
 			"statePop": "3,051,217",
 			"statehoodYear": 1896,
-			"statehoodNumber": 45,
+			"statehoodNumber": "45th",
 			"nickName": "The Beehive State",
 			"stateCapital": "Salt Lake City",
 			"stateBigCity": "Salt Lake City",
@@ -663,13 +663,13 @@
 			"stateFlower": "Sego Lily",
 			"stateFish": "Bonnevillle Cutthroat Trout",
 			"stateTree": "Blue Spruce",
-			"stateFact": "the mountains near Salt Lake City, Utah average 500 inches of snowfall per year."
+			"stateFact": "the mountains near Salt Lake City, Utah average 500 inches of snowfall per year"
 		},
 		{
 			"stateName": "Vermont",
 			"statePop": "624,594",
 			"statehoodYear": 1791,
-			"statehoodNumber": 14,
+			"statehoodNumber": "14th",
 			"nickName": "The Green Mountain State",
 			"stateCapital": "Montpelier",
 			"stateBigCity": "Burlington",
@@ -678,13 +678,13 @@
 			"stateFlower": "Red Clover",
 			"stateFish": "Brook Trout and Walleye Pike",
 			"stateTree": "Sugar Maple",
-			"stateFact": "Vermont was the first state to join the Union after the original 13 colonies."
+			"stateFact": "Vermont was the first state to join the Union after the original 13 colonies"
 		},
 		{
 			"stateName": "Virgina",
 			"statePop": "8,382,993",
 			"statehoodYear": 1788,
-			"statehoodNumber": 10,
+			"statehoodNumber": "10th",
 			"nickName": "The Old Dominion State",
 			"stateCapital": "Richmond",
 			"stateBigCity": "Virginia Beach",
@@ -693,13 +693,13 @@
 			"stateFlower": "American Dogwood",
 			"stateFish": "Brook Trout",
 			"stateTree": "American Dogwood",
-			"stateFact": "Virginia is often called the 'mother of states' as portions of the original colony are now part of 6 different states."
+			"stateFact": "Virginia is often called the 'mother of states' as portions of the original colony are now part of 6 different states"
 		},
 		{
 			"stateName": "Washington",
 			"statePop": "7,170,351",
 			"statehoodYear": 1889,
-			"statehoodNumber": 42,
+			"statehoodNumber": "42nd",
 			"nickName": "The Evergreen State",
 			"stateCapital": "Olympia",
 			"stateBigCity": "Seattle",
@@ -708,13 +708,13 @@
 			"stateFlower": "Coast Rhododendron",
 			"stateFish": "Steelhead Trout",
 			"stateTree": "Western Hemlock",
-			"stateFact": "Microsoft corporation is headquartered in Redmond, Bill Gates, the head of Microsoft and the richest man in the US, also lives in this state."
+			"stateFact": "Microsoft corporation is headquartered in Redmond, Bill Gates, the head of Microsoft and the richest man in the US, also lives in this state"
 		},
 		{
 			"stateName": "West Virginia",
 			"statePop": "1,831,102",
 			"statehoodYear": 1863,
-			"statehoodNumber": 35,
+			"statehoodNumber": "35th",
 			"nickName": "The Mountain State",
 			"stateCapital": "Charleston",
 			"stateBigCity": "Charleston",
@@ -723,13 +723,13 @@
 			"stateFlower": "Rhododendron",
 			"stateFish": "Brook Trout",
 			"stateTree": "Sugar Maple",
-			"stateFact": "West Virginia has one of the lowest crime rates in the country."
+			"stateFact": "West Virginia has one of the lowest crime rates in the country"
 		},
 		{
 			"stateName": "Wisconsin",
 			"statePop": "5,778,708",
 			"statehoodYear": 1848,
-			"statehoodNumber": 30,
+			"statehoodNumber": "30th",
 			"nickName": "The Badger State",
 			"stateCapital": "Madison",
 			"stateBigCity": "Milwaukee",
@@ -738,13 +738,13 @@
 			"stateFlower": "Wood Violet",
 			"stateFish": "Muskellunge",
 			"stateTree": "Sugar Maple",
-			"stateFact": "Wisconsin is known for its cow farms, milk, and cheese. Fans of the Green Bay Packers football team are sometimes called cheese heads!"
+			"stateFact": "Wisconsin is known for its cow farms, milk, and cheese. Fans of the Green Bay Packers football team are sometimes called cheese heads"
 		},
 		{
 			"stateName": "Wyoming",
 			"statePop": "585,501",
 			"statehoodYear": 1890,
-			"statehoodNumber": 44,
+			"statehoodNumber": "44th",
 			"nickName": "The Equality State",
 			"stateCapital": "Cheyenne",
 			"stateBigCity": "Cheyenne",
@@ -753,7 +753,7 @@
 			"stateFlower": "Indian Paintbrush",
 			"stateFish": "Cutthroat Trout",
 			"stateTree": "Plains Cottonwood",
-			"stateFact": "Wyoming is the least populated state in the US."
+			"stateFact": "Wyoming is the least populated state in the US"
 		}
 
 	]
