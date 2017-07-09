@@ -18,10 +18,9 @@ class MainViewController: UIViewController, UITableViewDelegate, UITableViewData
     override func viewDidLoad()
     {
         super.viewDidLoad()
-        let path = Bundle.main.path(forResource: "apiQoshish", ofType: "txt")
-        let myData = try? String(contentsOfFile:path!, encoding: String.Encoding.utf8)
-        let json = try? JSON(myData!)
-        print(json!)
+        let path = Bundle.main.path(forResource: "apiQoshish", ofType: "json")
+        let myData = try? Data(contentsOf: URL(fileURLWithPath: path!), options: .alwaysMapped)
+        let json = try? JSON(data: myData!)
         parse(Data: json!)
     }
     
@@ -41,7 +40,6 @@ class MainViewController: UIViewController, UITableViewDelegate, UITableViewData
     
     func parse(Data: JSON)
     {
-        print(Data.count)
         for elements in Data["StateFactsList"].arrayValue
         {
             let stateName = elements["stateName"].stringValue
@@ -60,7 +58,7 @@ class MainViewController: UIViewController, UITableViewDelegate, UITableViewData
             
             let object = ["stateName": stateName, "statePop": statePop, "statehoodYear": statehoodYear, "statehoodNumber": statehoodNumber, "nickname": nickname, "stateCapital": stateCapital, "stateBigCity": stateBigCity, "stateAbbreviation": stateAbbreviation, "stateBird": stateBird, "stateFlower": stateFlower, "stateFish": stateFish, "stateTree": stateTree, "stateFact": stateFact]
             states.append(object)
-       
+            
         }
         myTableView.reloadData()
         

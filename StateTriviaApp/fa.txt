@@ -1,0 +1,48 @@
+{
+	"StateFactsList": [{
+			"stateName": "Alabama",
+			"statePop": "4858979",
+			"statehoodYear": "1819",
+			"statehoodNumber": "22",
+			"nickName": "The Heart of Dixie",
+			"stateCapital": "Montgomery",
+			"stateBigCity": "Birmingham",
+			"stateAbbreviation": "AL",
+			"stateBird": "Yellowhammer",
+			"stateFlower": "Camelia",
+			"stateFish": "Largemouth Bass",
+			"stateTree": "Southern Longleaf Pine",
+			"stateFact": "The Wright Brothers started the first flight school in Alabama."
+		},
+		{
+			"stateName": "Alaska",
+			"statePop": "738432",
+			"statehoodYear": "1959",
+			"statehoodNumber": "49",
+			"nickName": "The Last Frontier",
+			"stateCapital": "Juneau",
+			"stateBigCity": "Anchorage",
+			"stateAbbreviation": "AK",
+			"stateBird": "Willow Ptarmigan",
+			"stateFlower": "Forget-Me-Not(Scorpian Grasses)",
+			"stateFish": "King Salmon",
+			"stateTree": "Sitka Spruce",
+			"stateFact": "Mount McKinley is the tallest mountain in all of North America."
+		},
+		{
+			"stateName": "Arizona",
+			"statePop": "6828065",
+			"statehoodYear": "1912",
+			"statehoodNumber": "48",
+			"nickName": "The Grand Canyon State",
+			"stateCapital": "Phoenix",
+			"stateBigCity": "Phoenix",
+			"stateAbbreviation": "AZ",
+			"stateBird": "Cactus Wren",
+			"stateFlower": "Saguaro Cactus Blossom",
+			"stateFish": "Apache Trout",
+			"stateTree": "Palo Verde",
+			"stateFact": "Arizona is home to the Gila Monster, the only poisonous lizard in the United States."
+		}
+	]
+}

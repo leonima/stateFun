@@ -1,0 +1,37 @@
+
+   “StateFactsList”: [
+{
+
+{
+stateName: “Alabama”,
+statePop: 4.858.979,
+statehoodYear: 1819,
+statehoodNumber: 22,
+nickName: “The Heart of Dixie“,
+stateCapital: “Montgomery”,
+stateBigCity: "Birmingham”,
+stateAbbreviation: “AL”,
+stateBird: “Yellowhammer”,
+stateFlower: “Camelia”,
+stateFish: “Largemouth Bass”,
+stateTree: “Southern Longleaf Pine”,
+stateFact: “The Wright Brothers started the first flight school in Alabama.”,
+},
+
+{
+stateName: “Alaska”,
+statePop: 738.432,
+statehoodYear: 1959,
+statehoodNumber: 49,
+nickName: “The Last Frontier“,
+stateCapital: “Juneau”,
+stateBigCity: “Anchorage”,
+stateAbbreviation: “AK”,
+stateBird: “Willow Ptarmigan”,
+stateFlower: “Forget-Me-Not(Scorpian Grasses)”,
+stateFish: “King Salmon”,
+stateTree: “Sitka Spruce”,
+stateFact: “Mount McKinley is the tallest mountain in all of North America.”,
+}
+       ]
+}
