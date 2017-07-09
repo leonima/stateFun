@@ -63,5 +63,17 @@ class MainViewController: UIViewController, UITableViewDelegate, UITableViewData
         myTableView.reloadData()
         
     }
-
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?)
+    {
+        if segue.identifier == "b"
+        {
+            if let indexPath = myTableView.indexPathForSelectedRow
+            {
+                let state = states[indexPath.row]
+                var dvc = segue.destination as! DetailViewController
+                dvc.detailItem = state
+            }
+        
+        }
+    }
 }
