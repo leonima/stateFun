@@ -62,6 +62,10 @@ class GameViewController: UIViewController
         
     }
     
+    /*override func touchesEnded(_ touches: Set<UITouch>, with event: UIEvent?)
+    {
+        if
+    }*/
     
     /*@IBAction func checkAnswersButton(_ sender: Any)
     {
