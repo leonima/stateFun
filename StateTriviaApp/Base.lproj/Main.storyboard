@@ -38,7 +38,7 @@
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
-                                    <segue destination="8uY-sR-xFX" kind="show" id="eyl-Ko-3iK"/>
+                                    <segue destination="lRp-8j-fn7" kind="show" id="5gj-RV-Y64"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -51,7 +51,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="743.47826086956525" y="783.42391304347836"/>
+            <point key="canvasLocation" x="717" y="783"/>
         </scene>
         <!--Quiz View Controller-->
         <scene sceneID="GwY-AM-qjJ">
@@ -286,9 +286,6 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="Learn more about the states"/>
-                                <connections>
-                                    <segue destination="lRp-8j-fn7" kind="show" id="SNB-46-aJL"/>
-                                </connections>
                             </button>
                             <pickerView hidden="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="HWV-7e-arm">
                                 <rect key="frame" x="83" y="663" width="249" height="65"/>
@@ -411,7 +408,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="SGb-e1-p10" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1437.68115942029" y="782.60869565217399"/>
+            <point key="canvasLocation" x="1132" y="-607"/>
         </scene>
         <!--Main View Controller-->
         <scene sceneID="Q76-rH-Fqe">
@@ -430,7 +427,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="More games"/>
                                 <connections>
-                                    <segue destination="5eJ-yU-XPF" kind="show" identifier="a" id="LO3-QB-NBs"/>
+                                    <segue destination="vf0-Fg-zPP" kind="show" id="8Ys-eL-Tuj"/>
                                 </connections>
                             </button>
                             <searchBar contentMode="redraw" text="" translatesAutoresizingMaskIntoConstraints="NO" id="3Z2-fO-AdY">
@@ -485,7 +482,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="2A7-3Z-5Vp" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2157.971014492754" y="782.60869565217399"/>
+            <point key="canvasLocation" x="1461" y="783"/>
         </scene>
         <!--Game View Controller-->
         <scene sceneID="VHk-6r-xkt">
@@ -767,7 +764,43 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="aMB-OV-RKN" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2157.971014492754" y="94.565217391304358"/>
+            <point key="canvasLocation" x="1864" y="-607"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="2XN-Es-IR3">
+            <objects>
+                <viewController id="vf0-Fg-zPP" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="YYB-Ci-maw"/>
+                        <viewControllerLayoutGuide type="bottom" id="Dqa-nG-lBj"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="x2o-Rm-9p3">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="seO-BX-C04">
+                                <rect key="frame" x="184" y="234" width="46" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <connections>
+                                    <segue destination="8uY-sR-xFX" kind="show" id="gC0-xC-zwz"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9uT-6F-Kan">
+                                <rect key="frame" x="184" y="527" width="46" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <connections>
+                                    <segue destination="5eJ-yU-XPF" kind="show" id="goP-S8-4K0"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="aFN-S0-HsP" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1461" y="68"/>
         </scene>
         <!--Detail View Controller-->
         <scene sceneID="O3i-WU-6Xz">
@@ -802,7 +835,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="LYG-m4-wxh" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2862.3188405797105" y="782.60869565217399"/>
+            <point key="canvasLocation" x="2233" y="783"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="Pzj-o2-hYl">
