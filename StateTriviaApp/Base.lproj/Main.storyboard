@@ -273,19 +273,14 @@
                                 </connections>
                             </pickerView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4M7-sJ-IJE">
-                                <rect key="frame" x="51" y="686" width="46" height="30"/>
+                                <rect key="frame" x="145" y="674" width="125" height="42"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                 <state key="normal" title="Check"/>
                                 <connections>
                                     <action selector="checkButton:" destination="8uY-sR-xFX" eventType="touchUpInside" id="92a-E8-2Zh"/>
                                 </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vsv-5v-q0D">
-                                <rect key="frame" x="183" y="686" width="211" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                <state key="normal" title="Learn more about the states"/>
                             </button>
                             <pickerView hidden="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="HWV-7e-arm">
                                 <rect key="frame" x="83" y="663" width="249" height="65"/>
@@ -408,7 +403,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="SGb-e1-p10" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1132" y="-607"/>
+            <point key="canvasLocation" x="1131.8840579710145" y="-607.33695652173913"/>
         </scene>
         <!--Main View Controller-->
         <scene sceneID="Q76-rH-Fqe">
@@ -422,20 +417,12 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PmX-y4-nic">
-                                <rect key="frame" x="313" y="64" width="85" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="More games"/>
-                                <connections>
-                                    <segue destination="vf0-Fg-zPP" kind="show" id="8Ys-eL-Tuj"/>
-                                </connections>
-                            </button>
                             <searchBar contentMode="redraw" text="" translatesAutoresizingMaskIntoConstraints="NO" id="3Z2-fO-AdY">
                                 <rect key="frame" x="0.0" y="94" width="414" height="44"/>
                                 <textInputTraits key="textInputTraits"/>
                             </searchBar>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="HBj-Ms-GdK">
-                                <rect key="frame" x="0.0" y="138" width="414" height="598"/>
+                                <rect key="frame" x="0.0" y="138" width="414" height="554"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="myCell" textLabel="fhv-QT-qOr" style="IBUITableViewCellStyleDefault" id="kbb-q7-JaG">
@@ -476,6 +463,10 @@
                             <constraint firstItem="HBj-Ms-GdK" firstAttribute="leading" secondItem="SC9-Fd-bRb" secondAttribute="leading" id="lkU-p2-Rt3"/>
                         </constraints>
                     </view>
+                    <toolbarItems>
+                        <barButtonItem title="Item" id="VLT-91-f2M"/>
+                    </toolbarItems>
+                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
                     <connections>
                         <outlet property="myTableView" destination="HBj-Ms-GdK" id="Q9t-UB-gfd"/>
                     </connections>
@@ -836,29 +827,54 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="seO-BX-C04">
-                                <rect key="frame" x="184" y="234" width="46" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="seO-BX-C04">
+                                <rect key="frame" x="51" y="160.66666666666666" width="312" height="76"/>
+                                <color key="backgroundColor" red="0.0" green="0.50196081400000003" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="Noteworthy-Light" family="Noteworthy" pointSize="40"/>
+                                <state key="normal" title="Trivia Time!!!!!">
+                                    <color key="titleColor" red="0.50196081400000003" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" red="0.50196081400000003" green="0.25098040700000002" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
                                 <connections>
                                     <segue destination="8uY-sR-xFX" kind="show" id="gC0-xC-zwz"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9uT-6F-Kan">
-                                <rect key="frame" x="184" y="527" width="46" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9uT-6F-Kan">
+                                <rect key="frame" x="68" y="336.66666666666669" width="278" height="64"/>
+                                <color key="backgroundColor" red="0.0" green="0.50196081400000003" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="LaoSangamMN" family="Lao Sangam MN" pointSize="40"/>
+                                <state key="normal" title="Guess the Pop!!!">
+                                    <color key="titleColor" red="0.50196081400000003" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
                                 <connections>
                                     <segue destination="5eJ-yU-XPF" kind="show" id="goP-S8-4K0"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4hM-0Q-Vzj">
+                                <rect key="frame" x="51" y="500" width="312" height="64"/>
+                                <color key="backgroundColor" red="0.0" green="0.50196081400000003" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="40"/>
+                                <state key="normal" title="Name the State!">
+                                    <color key="titleColor" red="0.50196081400000003" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                            </button>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="0.40000000600000002" green="0.80000001190000003" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="trailingMargin" secondItem="4hM-0Q-Vzj" secondAttribute="trailing" constant="31" id="Lol-hu-cQ1"/>
+                            <constraint firstItem="9uT-6F-Kan" firstAttribute="centerY" secondItem="x2o-Rm-9p3" secondAttribute="centerY" id="MFJ-9C-3fN"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="seO-BX-C04" secondAttribute="trailing" constant="31" id="Rfi-Vm-7l0"/>
+                            <constraint firstItem="9uT-6F-Kan" firstAttribute="top" secondItem="seO-BX-C04" secondAttribute="bottom" constant="100" id="bWF-Ws-qo8"/>
+                            <constraint firstItem="seO-BX-C04" firstAttribute="leading" secondItem="x2o-Rm-9p3" secondAttribute="leadingMargin" constant="31" id="eHV-do-PCY"/>
+                            <constraint firstItem="9uT-6F-Kan" firstAttribute="centerX" secondItem="x2o-Rm-9p3" secondAttribute="centerX" id="iTS-QV-8vq"/>
+                            <constraint firstItem="4hM-0Q-Vzj" firstAttribute="top" secondItem="9uT-6F-Kan" secondAttribute="bottom" constant="100" id="lDJ-0E-F3w"/>
+                            <constraint firstItem="4hM-0Q-Vzj" firstAttribute="leading" secondItem="x2o-Rm-9p3" secondAttribute="leadingMargin" constant="31" id="sRp-02-OBb"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="aFN-S0-HsP" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1461" y="68"/>
+            <point key="canvasLocation" x="1460.8695652173915" y="67.663043478260875"/>
         </scene>
         <!--Detail View Controller-->
         <scene sceneID="O3i-WU-6Xz">
