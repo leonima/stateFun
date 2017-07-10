@@ -15,7 +15,8 @@
 			"stateFlower": "Camelia",
 			"stateFish": "Largemouth Bass",
 			"stateTree": "Southern Longleaf Pine",
-			"stateFact": "the Wright Brothers started the first flight school in Alabama"
+			"stateFact": "the Wright Brothers started the first flight school in Alabama",
+			"statePic": "alabama"
 		},
 		{
 			"stateName": "Alaska",
@@ -30,7 +31,8 @@
 			"stateFlower": "Forget - Me - Not(Scorpian Grasses)",
 			"stateFish": "King Salmon",
 			"stateTree": "Sitka Spruce",
-			"stateFact": "Mount McKinley is the tallest mountain in all of North America"
+			"stateFact": "Mount McKinley is the tallest mountain in all of North America",
+			"statePic": "alaska"
 		},
 		{
 			"stateName": "Arizona",
@@ -45,7 +47,8 @@
 			"stateFlower": "Saguaro Cactus Blossom",
 			"stateFish": "Apache Trout",
 			"stateTree": "Palo Verde",
-			"stateFact": "Arizona is home to the Gila Monster, the only poisonous lizard in the United States"
+			"stateFact": "Arizona is home to the Gila Monster, the only poisonous lizard in the United States",
+			"statePic": "arizona"
 		},
 		{
 			"stateName": "Arkansas",
@@ -60,7 +63,8 @@
 			"stateFlower": "Apple Blossom",
 			"stateFish": "nothing",
 			"stateTree": "Pine Tree",
-			"stateFact": "Arkansas is pronounced‘ Arkansaw’. It is against the law to say it wrong. Also this state has no state fish"
+			"stateFact": "Arkansas is pronounced‘ Arkansaw’. It is against the law to say it wrong. Also this state has no state fish",
+			"statePic": "arkansas"
 		},
 		{
 			"stateName": "California",
@@ -75,7 +79,8 @@
 			"stateFlower": "California Poppy",
 			"stateFish": "Golden Trout and the Garibaldi",
 			"stateTree": "Redwood",
-			"stateFact": "you can drive through a giant Redwood tree in California’s Kings Canyon and while Arkansas doesn’t have a state fish, California has two"
+			"stateFact": "you can drive through a giant Redwood tree in California’s Kings Canyon and while Arkansas doesn’t have a state fish, California has two",
+			"statePic": "california"
 		},
 		{
 			"stateName": "Colorado",
@@ -90,7 +95,8 @@
 			"stateFlower": "White and Lavender Columbine",
 			"stateFish": "Greenback Cutthroat Trout",
 			"stateTree": "Colorado Blue Spruce",
-			"stateFact": "the capital of Colorado, Denver is almost exactly 1 mile above sea level. This is how it earned the nickname 'Mile High City'"
+			"stateFact": "the capital of Colorado, Denver is almost exactly 1 mile above sea level. This is how it earned the nickname 'Mile High City'",
+			"statePic": "colorado"
 		},
 		{
 			"stateName": "Connecticut",
@@ -105,7 +111,8 @@
 			"stateFlower": "Mountain Laurel",
 			"stateFish": "American Shad",
 			"stateTree": "White Oak",
-			"stateFact": "the first hamburger was made in New Haven, Connecticut"
+			"stateFact": "the first hamburger was made in New Haven, Connecticut",
+			"statePic": "connecticut"
 		},
 		{
 			"stateName": "Delaware",
@@ -120,7 +127,8 @@
 			"stateFlower": "Peach Blossom",
 			"stateFish": "Weakfish",
 			"stateTree": "American Holly",
-			"stateFact": "the official state insect of Delaware is a ladybug"
+			"stateFact": "the official state insect of Delaware is a ladybug",
+			"statePic": "delaware"
 		},
 		{
 			"stateName": "Florida",
@@ -135,7 +143,8 @@
 			"stateFlower": "Orange Blossom",
 			"stateFish": "Largemouth Bass and Atlantic Sailfish",
 			"stateTree": "Sabal Palm",
-			"stateFact": "Florida is sometimes called the Alligator State because of all the alligators that live there. Also, the University of Florida's mascot is the Gator. This is where Gatorade was first invented"
+			"stateFact": "Florida is sometimes called the Alligator State because of all the alligators that live there. Also, the University of Florida's mascot is the Gator. This is where Gatorade was first invented",
+			"statePic": "florida"
 		},
 		{
 			"stateName": "Georgia",
@@ -150,7 +159,8 @@
 			"stateFlower": "Cherokee Rose",
 			"stateFish": "Largemouth Bass",
 			"stateTree": "Live Oak",
-			"stateFact": "why didn’t the chicken cross the road in Quitman, Georgia? Because it is illegal there! It is illegal to let a chicken cross an open road in Georgia"
+			"stateFact": "why didn’t the chicken cross the road in Quitman, Georgia? Because it is illegal there! It is illegal to let a chicken cross an open road in Georgia",
+			"statePic": "georgia"
 		},
 		{
 			"stateName": "Hawaii",
@@ -165,7 +175,8 @@
 			"stateFlower": "Yellow Hibiscus",
 			"stateFish": "Reef Triggerfish",
 			"stateTree": "Kukui(Candlenut)",
-			"stateFact": "there are only 12 letters in the Hawaiian alphabet"
+			"stateFact": "there are only 12 letters in the Hawaiian alphabet",
+			"statePic": "hawaii"
 		},
 		{
 			"stateName": "Idaho",
@@ -180,7 +191,8 @@
 			"stateFlower": "Syringa",
 			"stateFish": "Cutthroat Trout",
 			"stateTree": "Western White Pine",
-			"stateFact": "there are more miles of river in Idaho, than any other state"
+			"stateFact": "there are more miles of river in Idaho, than any other state",
+			"statePic": "idaho"
 		},
 		{
 			"stateName": "Illinois",
@@ -195,7 +207,8 @@
 			"stateFlower": "Violet",
 			"stateFish": "Bluegill",
 			"stateTree": "White Oak",
-			"stateFact": "the makers of this app are from Illinois"
+			"stateFact": "the makers of this app are from Illinois",
+			"statePic": "illinois"
 		},
 		{
 			"stateName": "Indiana",
@@ -210,7 +223,8 @@
 			"stateFlower": "Peony",
 			"stateFish": "nothing, this state has no state fish",
 			"stateTree": "Tulip Tree",
-			"stateFact": "Indiana has a city named Santa Claus. Every year thousands of letters are mailed there at Christmas time"
+			"stateFact": "Indiana has a city named Santa Claus. Every year thousands of letters are mailed there at Christmas time",
+			"statePic": "indiana"
 		},
 		{
 			"stateName": "Iowa",
@@ -225,7 +239,8 @@
 			"stateFlower": "Wild Rose",
 			"stateFish": "Channel Catfish",
 			"stateTree": "Oak",
-			"stateFact": "Iowa is the only US state name that begins with two vowels"
+			"stateFact": "Iowa is the only US state name that begins with two vowels",
+			"statePic": "iowa"
 		},
 		{
 			"stateName": "Kansas",
@@ -240,7 +255,8 @@
 			"stateFlower": "Sunflower",
 			"stateFish": "nothing, this state has no state fish",
 			"stateTree": "Cottonwood",
-			"stateFact": "Kansas produces enough wheat in a year to provide every person on earth with six loaves of bread"
+			"stateFact": "Kansas produces enough wheat in a year to provide every person on earth with six loaves of bread",
+			"statePic": "kansas"
 		},
 		{
 			"stateName": "Kentucky",
@@ -255,7 +271,8 @@
 			"stateFlower": "Goldenrod",
 			"stateFish": "Kentucky Bass",
 			"stateTree": "Tulip Poplar",
-			"stateFact": "Kentucky is on of three states, including Colorado and California, who claim to have invented the cheeseburger"
+			"stateFact": "Kentucky is on of three states, including Colorado and California, who claim to have invented the cheeseburger",
+			"statePic": "kentucky"
 		},
 		{
 			"stateName": "Louisiana",
@@ -270,7 +287,8 @@
 			"stateFlower": "Magnolia",
 			"stateFish": "White Perch(Sac - Au - Lait) and Spotted Sea Trout",
 			"stateTree": "Baldcypress",
-			"stateFact": "Louisiana is named after King Louis XIV"
+			"stateFact": "Louisiana is named after King Louis XIV",
+			"statePic": "louisiana"
 		},
 		{
 			"stateName": "Maine",
@@ -285,7 +303,8 @@
 			"stateFlower": "White Pinecone and Tassel",
 			"stateFish": "Land - Locked Salmon",
 			"stateTree": "White Pine",
-			"stateFact": "when people say 'bugs' in Maine they are often referring to lobsters"
+			"stateFact": "when people say 'bugs' in Maine they are often referring to lobsters",
+			"statePic": "maine"
 		},
 		{
 			"stateName": "Maryland",
@@ -300,7 +319,8 @@
 			"stateFlower": "Black - Eyed Susan",
 			"stateFish": "Rockfish",
 			"stateTree": "White Oak",
-			"stateFact": "the first school in the United States was the King William’s School. It opened in 1696 in Maryland"
+			"stateFact": "the first school in the United States was the King William’s School. It opened in 1696 in Maryland",
+			"statePic": "maryland"
 		},
 		{
 			"stateName": "Massachusetts",
@@ -315,7 +335,8 @@
 			"stateFlower": "Mayflower",
 			"stateFish": "Atlantic Cod",
 			"stateTree": "Elm",
-			"stateFact": "four US presidents were born in Massachusetts, John Adams, John Quincy Adams, John Fitzgerald Kennedy, and George H.W. Bush were all born in Massachusetts"
+			"stateFact": "four US presidents were born in Massachusetts, John Adams, John Quincy Adams, John Fitzgerald Kennedy, and George H.W. Bush were all born in Massachusetts",
+			"statePic": "massachusetts"
 		},
 		{
 			"stateName": "Michigan",
@@ -330,7 +351,8 @@
 			"stateFlower": "Apple Blossom",
 			"stateFish": "Brook Trout",
 			"stateTree": "White Pine",
-			"stateFact": "no matter where you are in Michigan, you are always within 85 miles of a Great Lake"
+			"stateFact": "no matter where you are in Michigan, you are always within 85 miles of a Great Lake",
+			"statePic": "michigan"
 		},
 		{
 			"stateName": "Minnesota",
@@ -345,7 +367,8 @@
 			"stateFlower": "Pink and White Lady Slipper",
 			"stateFish": "Walleye",
 			"stateTree": "Red Pine",
-			"stateFact": "the Mall of America in Minneapolis is one of the biggest malls in the world. It covers the same ground as 78 football fields"
+			"stateFact": "the Mall of America in Minneapolis is one of the biggest malls in the world. It covers the same ground as 78 football fields",
+			"statePic": "minnesota"
 		},
 		{
 			"stateName": "Mississippi",
@@ -360,7 +383,8 @@
 			"stateFlower ": "Magnolia",
 			"stateFish": "Largemouth Bass",
 			"stateTree": "Magnolia",
-			"stateFact": "the first human lung transplant and heart transplant were performed at the University of Mississippi Medical Center"
+			"stateFact": "the first human lung transplant and heart transplant were performed at the University of Mississippi Medical Center",
+			"statePic": "mississippi"
 		},
 		{
 			"stateName": "Missouri",
@@ -375,7 +399,8 @@
 			"stateFlower": "White Hawthorn",
 			"stateFish": "Catfish",
 			"stateTree": "Flowering Dogwood",
-			"stateFact": "the tallest man in history, Robert Wadlow, lived here.He was 8 feet 11 inches tall"
+			"stateFact": "the tallest man in history, Robert Wadlow, lived here.He was 8 feet 11 inches tall",
+			"statePic": "missouri"
 
 		},
 		{
@@ -391,7 +416,8 @@
 			"stateFlower": "Bitterroot",
 			"stateFish": "Blackspotted Cutthroat Trout",
 			"stateTree": "Ponderosa Pine",
-			"stateFact": "the name Montana comes from a Spanish word meaning mountainous. This name if fitting as the state has over 50 mountain ranges"
+			"stateFact": "the name Montana comes from a Spanish word meaning mountainous. This name if fitting as the state has over 50 mountain ranges",
+			"statePic": "montana"
 
 		},
 		{
@@ -407,7 +433,8 @@
 			"stateFlower": "Goldenrod",
 			"stateFish": "Channel Catfish",
 			"stateTree": "Eastern Cottonwood",
-			"stateFact": "the world’s largest wholly mammoth fossil was found in Lincoln County"
+			"stateFact": "the world’s largest wholly mammoth fossil was found in Lincoln County",
+			"statePic": "nebraska"
 
 		},
 		{
@@ -423,7 +450,8 @@
 			"stateFlower": "Sagebrush",
 			"stateFish": "Lahontan Cutthroat Trout",
 			"stateTree": "The Single-Leaf Pinon",
-			"stateFact": "Area 51, the place famed for UFO cover-ups, is located in southern Nevada"
+			"stateFact": "Area 51, the place famed for UFO cover-ups, is located in southern Nevada",
+			"statePic": "nevada"
 		},
 		{
 			"stateName": "New Hampshire",
@@ -438,7 +466,8 @@
 			"stateFlower": "Purple Lilac",
 			"stateFish": "Brook Trout and Striped Bass",
 			"stateTree": "White Birch",
-			"stateFact": "the top of Mt. Washington in New Hampshire is said to have the worst weather on Earth. A world record for wind speed was clocked here at 231 miles per hour"
+			"stateFact": "the top of Mt. Washington in New Hampshire is said to have the worst weather on Earth. A world record for wind speed was clocked here at 231 miles per hour",
+			"statePic": "newHampshire"
 		},
 		{
 			"stateName": "New Jersey",
@@ -453,7 +482,8 @@
 			"stateFlower": "Common Violet",
 			"stateFish": "Brook Trout",
 			"stateTree": "Red Oak",
-			"stateFact": "over 100 battles have been fought on New Jersey soil"
+			"stateFact": "over 100 battles have been fought on New Jersey soil",
+			"statePic": "newJersey"
 		},
 		{
 			"stateName": "New Mexico",
@@ -468,7 +498,8 @@
 			"stateFlower": "Yucca",
 			"stateFish": "Cutthroat Trout",
 			"stateTree": "Pinon Pine",
-			"stateFact": "New Mexico is one of the four state that meet at the Four Corners. You can stand in four states at the same time! The other three states are Colorado, Utah, and Arizona"
+			"stateFact": "New Mexico is one of the four state that meet at the Four Corners. You can stand in four states at the same time! The other three states are Colorado, Utah, and Arizona",
+			"statePic": "newMexico"
 		},
 		{
 			"stateName": "New York",
@@ -483,7 +514,8 @@
 			"stateFlower": "Rose",
 			"stateFish": "Brook Trout and Striped Bass",
 			"stateTree": "Sugar Maple",
-			"stateFact": "Peter Minuit purchased the island of Manhattan from the natives for around $24"
+			"stateFact": "Peter Minuit purchased the island of Manhattan from the natives for around $24",
+			"statePic": "newYork"
 		},
 		{
 			"stateName": "North Carolina",
@@ -498,7 +530,8 @@
 			"stateFlower": "Flowering Dogwood",
 			"stateFish": "Channel Bass",
 			"stateTree": "Pine",
-			"stateFact": "Virginia Dare was the first English child born in America in Roanoke, North Carolina in 1587"
+			"stateFact": "Virginia Dare was the first English child born in America in Roanoke, North Carolina in 1587",
+			"statePic": "northCarolina"
 		},
 		{
 			"stateName": "North Dakota",
@@ -513,7 +546,8 @@
 			"stateFlower": "Wild Prairie Rose",
 			"stateFish": "Northern Pike",
 			"stateTree": "American Elm",
-			"stateFact": "the official state beverage of North Dakota is milk"
+			"stateFact": "the official state beverage of North Dakota is milk",
+			"statePic": "northDakota"
 		},
 		{
 			"stateName": "Ohio",
@@ -528,7 +562,8 @@
 			"stateFlower": "Red Carnation",
 			"stateFish": "Walleye",
 			"stateTree": "The Buckeye",
-			"stateFact": "the first traffic light was in Cleveland, Ohio"
+			"stateFact": "the first traffic light was in Cleveland, Ohio",
+			"statePic": "ohio"
 		},
 		{
 			"stateName": "Oklahoma",
@@ -543,7 +578,8 @@
 			"stateFlower": "Oklahoma Rose",
 			"stateFish": "White Bass",
 			"stateTree": "Redbud",
-			"stateFact": "the name Sooner State comes from people who tried to sneak into Oklahoma and make land claims 'sooner' that they were allowed"
+			"stateFact": "the name Sooner State comes from people who tried to sneak into Oklahoma and make land claims 'sooner' that they were allowed",
+			"statePic": "oklahoma"
 		},
 		{
 			"stateName": "Oregon",
@@ -558,7 +594,8 @@
 			"stateFlower": "Oregon Grape",
 			"stateFish": "Chinook Salmon",
 			"stateTree": "Douglas Fir",
-			"stateFact": "the Oregon state flag has a beaver on the back. It is the only US state flag with a different image on the reverse side"
+			"stateFact": "the Oregon state flag has a beaver on the back. It is the only US state flag with a different image on the reverse side",
+			"statePic": "oregon"
 		},
 		{
 			"stateName": "Pennsylvania",
@@ -573,7 +610,8 @@
 			"stateFlower": "Mountain Laurel",
 			"stateFish": "Brook Trout",
 			"stateTree": "Hemlock",
-			"stateFact": "the Constitution of the United States, the Declaration of Independence, and the Gettysburg Address were all written in Pennsylvania"
+			"stateFact": "the Constitution of the United States, the Declaration of Independence, and the Gettysburg Address were all written in Pennsylvania",
+			"statePic": "pennsylvania"
 		},
 		{
 			"stateName": "Rhode Island",
@@ -588,7 +626,8 @@
 			"stateFlower": "Violet",
 			"stateFish": "Striped Bass",
 			"stateTree": "Red Maple",
-			"stateFact": "Rhode Island is the smallest state in the United States and it was the last of the original thirteen colonies to become a state"
+			"stateFact": "Rhode Island is the smallest state in the United States and it was the last of the original thirteen colonies to become a state",
+			"statePic": "rhodeIsland"
 		},
 		{
 			"stateName": "South Carolina",
@@ -603,7 +642,8 @@
 			"stateFlower": "Yellow Jessamine",
 			"stateFish": "Striped Bass",
 			"stateTree": "Palmetto",
-			"stateFact": "the state tree of South Carolina, the Palmetto Tree, was used to build the walls for a fort on Sullivan Island.The rubbery trees were a great defense as cannon balls bounced right off them"
+			"stateFact": "the state tree of South Carolina, the Palmetto Tree, was used to build the walls for a fort on Sullivan Island.The rubbery trees were a great defense as cannon balls bounced right off them",
+			"statePic": "southCarolina"
 		},
 		{
 			"stateName": "South Dakota",
@@ -618,7 +658,8 @@
 			"stateFlower": "Pasque Flower",
 			"stateFish": "Walleye",
 			"stateTree": "Black Hills Spruce",
-			"stateFact": "North and South Dakota were admitted on the same day to avoid a feud between the states"
+			"stateFact": "North and South Dakota were admitted on the same day to avoid a feud between the states",
+			"statePic": "southDakota"
 		},
 		{
 			"stateName": "Tennessee",
@@ -633,7 +674,8 @@
 			"stateFlower": "Iris",
 			"stateFish": "Channel Catfish",
 			"stateTree": "Tulip Poplar",
-			"stateFact": "Tennessee borders 8 other states"
+			"stateFact": "Tennessee borders 8 other states",
+			"statePic": "tennessee"
 		},
 		{
 			"stateName": "Texas",
@@ -648,7 +690,8 @@
 			"stateFlower": "Bluebonnet",
 			"stateFish": "Guadalupe Bass",
 			"stateTree": "Pecan",
-			"stateFact": "El Paso, Texas is closer to the border of California than it is to Dallas, Texas. That’ s how big Texas is"
+			"stateFact": "El Paso, Texas is closer to the border of California than it is to Dallas, Texas. That’ s how big Texas is",
+			"statePic": "texas"
 		},
 		{
 			"stateName": "Utah",
@@ -663,7 +706,8 @@
 			"stateFlower": "Sego Lily",
 			"stateFish": "Bonnevillle Cutthroat Trout",
 			"stateTree": "Blue Spruce",
-			"stateFact": "the mountains near Salt Lake City, Utah average 500 inches of snowfall per year"
+			"stateFact": "the mountains near Salt Lake City, Utah average 500 inches of snowfall per year",
+			"statePic": "utah"
 		},
 		{
 			"stateName": "Vermont",
@@ -678,7 +722,8 @@
 			"stateFlower": "Red Clover",
 			"stateFish": "Brook Trout and Walleye Pike",
 			"stateTree": "Sugar Maple",
-			"stateFact": "Vermont was the first state to join the Union after the original 13 colonies"
+			"stateFact": "Vermont was the first state to join the Union after the original 13 colonies",
+			"statePic": "vermont"
 		},
 		{
 			"stateName": "Virgina",
@@ -693,7 +738,8 @@
 			"stateFlower": "American Dogwood",
 			"stateFish": "Brook Trout",
 			"stateTree": "American Dogwood",
-			"stateFact": "Virginia is often called the 'mother of states' as portions of the original colony are now part of 6 different states"
+			"stateFact": "Virginia is often called the 'mother of states' as portions of the original colony are now part of 6 different states",
+			"statePic": "virgina"
 		},
 		{
 			"stateName": "Washington",
@@ -708,7 +754,8 @@
 			"stateFlower": "Coast Rhododendron",
 			"stateFish": "Steelhead Trout",
 			"stateTree": "Western Hemlock",
-			"stateFact": "Microsoft corporation is headquartered in Redmond, Bill Gates, the head of Microsoft and the richest man in the US, also lives in this state"
+			"stateFact": "Microsoft corporation is headquartered in Redmond, Bill Gates, the head of Microsoft and the richest man in the US, also lives in this state",
+			"statePic": "washington"
 		},
 		{
 			"stateName": "West Virginia",
@@ -723,7 +770,8 @@
 			"stateFlower": "Rhododendron",
 			"stateFish": "Brook Trout",
 			"stateTree": "Sugar Maple",
-			"stateFact": "West Virginia has one of the lowest crime rates in the country"
+			"stateFact": "West Virginia has one of the lowest crime rates in the country",
+			"statePic": "westVirginia"
 		},
 		{
 			"stateName": "Wisconsin",
@@ -738,7 +786,8 @@
 			"stateFlower": "Wood Violet",
 			"stateFish": "Muskellunge",
 			"stateTree": "Sugar Maple",
-			"stateFact": "Wisconsin is known for its cow farms, milk, and cheese. Fans of the Green Bay Packers football team are sometimes called cheese heads"
+			"stateFact": "Wisconsin is known for its cow farms, milk, and cheese. Fans of the Green Bay Packers football team are sometimes called cheese heads",
+			"statePic": "wisconsin"
 		},
 		{
 			"stateName": "Wyoming",
@@ -753,7 +802,8 @@
 			"stateFlower": "Indian Paintbrush",
 			"stateFish": "Cutthroat Trout",
 			"stateTree": "Plains Cottonwood",
-			"stateFact": "Wyoming is the least populated state in the US"
+			"stateFact": "Wyoming is the least populated state in the US",
+			"statePic": ""
 		}
 
 	]
