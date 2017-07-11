@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9838861D1F15384A0027C14E /* GuessViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9838861C1F15384A0027C14E /* GuessViewController.swift */; };
 		983D51C41F0537660048D2EB /* QuizViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 983D51C31F0537660048D2EB /* QuizViewController.swift */; };
 		983D51C61F0D2B570048D2EB /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 983D51C51F0D2B570048D2EB /* MainViewController.swift */; };
 		983D51C81F0D2C240048D2EB /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 983D51C71F0D2C240048D2EB /* DetailViewController.swift */; };
@@ -40,6 +41,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9838861C1F15384A0027C14E /* GuessViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GuessViewController.swift; sourceTree = "<group>"; };
 		983D51C31F0537660048D2EB /* QuizViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuizViewController.swift; sourceTree = "<group>"; };
 		983D51C51F0D2B570048D2EB /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		983D51C71F0D2C240048D2EB /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
@@ -114,6 +116,7 @@
 				FB3DC4711F042464006DCBB7 /* AppDelegate.swift */,
 				FB3DC4731F042464006DCBB7 /* ViewController.swift */,
 				FB3DC4751F042464006DCBB7 /* Main.storyboard */,
+				9838861C1F15384A0027C14E /* GuessViewController.swift */,
 				983D51C71F0D2C240048D2EB /* DetailViewController.swift */,
 				983D51C51F0D2B570048D2EB /* MainViewController.swift */,
 				983D51C31F0537660048D2EB /* QuizViewController.swift */,
@@ -280,6 +283,7 @@
 			files = (
 				983D51C41F0537660048D2EB /* QuizViewController.swift in Sources */,
 				FB67E29E1F0F208700D8C93F /* SwiftyJSON-1.swift in Sources */,
+				9838861D1F15384A0027C14E /* GuessViewController.swift in Sources */,
 				FB3DC4741F042464006DCBB7 /* ViewController.swift in Sources */,
 				983D51C81F0D2C240048D2EB /* DetailViewController.swift in Sources */,
 				FB3DC4721F042464006DCBB7 /* AppDelegate.swift in Sources */,

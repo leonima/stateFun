@@ -14,19 +14,44 @@ class GameViewController: UIViewController
     
     @IBOutlet weak var state1: UILabel!
     @IBOutlet weak var state2: UILabel!
+    @IBOutlet weak var state3: UILabel!
+    @IBOutlet weak var state4: UILabel!
+    @IBOutlet weak var state5: UILabel!
+    @IBOutlet weak var state6: UILabel!
+    @IBOutlet weak var state7: UILabel!
+    @IBOutlet weak var state8: UILabel!
+    @IBOutlet weak var state9: UILabel!
+    @IBOutlet weak var state10: UILabel!
     
-    @IBOutlet weak var blank1: UITextField!
-    @IBOutlet weak var blank2: UITextField!
-    @IBOutlet weak var blank3: UITextField!
-    @IBOutlet weak var blank4: UITextField!
-    @IBOutlet weak var blank5: UITextField!
-    @IBOutlet weak var blank6: UITextField!
-    @IBOutlet weak var blank7: UITextField!
-    @IBOutlet weak var blank8: UITextField!
-    @IBOutlet weak var blank9: UITextField!
-    @IBOutlet weak var blank10: UITextField!
+    @IBOutlet weak var label1: UILabel!
+    @IBOutlet weak var label2: UILabel!
+    @IBOutlet weak var label3: UILabel!
+    @IBOutlet weak var label4: UILabel!
+    @IBOutlet weak var label5: UILabel!
+    @IBOutlet weak var label6: UILabel!
+    @IBOutlet weak var label7: UILabel!
+    @IBOutlet weak var label8: UILabel!
+    @IBOutlet weak var label9: UILabel!
+    @IBOutlet weak var label10: UILabel!
     
+    class States
+    {
+        let name:String
+        
+        init(name:String)
+        {
+            self.name = name
+        }
+    }
+    let minnesota = States(name:"Minnesota")
+    let connecticut = States(name:"Connecticut")
+    let newMexico = States(name:"New Mexico")
+    let maryland = States(name:"Maryland")
+    let michigan = States(name:"Michigan")
     
+
+
+
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent!)
     {
         for touch in touches
@@ -67,18 +92,5 @@ class GameViewController: UIViewController
         if
     }*/
     
-    /*@IBAction func checkAnswersButton(_ sender: Any)
-    {
-        if 
-        {
-            print("okay")
-        }
-    }*/
     
-    
-    override func viewDidLoad()
-    {
-        super.viewDidLoad()
-    }
-
 }

@@ -726,7 +726,7 @@
 			"statePic": "vermont"
 		},
 		{
-			"stateName": "Virgina",
+			"stateName": "Virginia",
 			"statePop": "8,382,993",
 			"statehoodYear": 1788,
 			"statehoodNumber": "10th",
@@ -739,7 +739,7 @@
 			"stateFish": "Brook Trout",
 			"stateTree": "American Dogwood",
 			"stateFact": "Virginia is often called the 'mother of states' as portions of the original colony are now part of 6 different states",
-			"statePic": "virgina"
+			"statePic": "virginia"
 		},
 		{
 			"stateName": "Washington",
@@ -803,7 +803,7 @@
 			"stateFish": "Cutthroat Trout",
 			"stateTree": "Plains Cottonwood",
 			"stateFact": "Wyoming is the least populated state in the US",
-			"statePic": ""
+			"statePic": "wyoming"
 		}
 
 	]
