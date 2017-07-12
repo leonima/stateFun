@@ -11,6 +11,7 @@ import UIKit
 class GameViewController: UIViewController
 {
     var location = CGPoint(x: 0, y: 0)
+    var states = ["Florida", "Illinois", "Georgia", "North Carolina", "Washington", "Missouri", "Minnesota", "South Carolina", "Kentucky"]
     
     @IBOutlet weak var state1: UILabel!
     @IBOutlet weak var state2: UILabel!
@@ -34,24 +35,6 @@ class GameViewController: UIViewController
     @IBOutlet weak var label9: UILabel!
     @IBOutlet weak var label10: UILabel!
     
-    class States
-    {
-        let name:String
-        
-        init(name:String)
-        {
-            self.name = name
-        }
-    }
-    let minnesota = States(name:"Minnesota")
-    let connecticut = States(name:"Connecticut")
-    let newMexico = States(name:"New Mexico")
-    let maryland = States(name:"Maryland")
-    let michigan = States(name:"Michigan")
-    
-
-
-
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent!)
     {
         for touch in touches
