@@ -11,6 +11,7 @@ import UIKit
 class GameViewController: UIViewController
 {
     var location = CGPoint(x: 0, y: 0)
+    var answer = ["Florida", "Illinois", "Georgia", "North Carolina", "Washington", "Missouri", "Minnesota", "South Carolina", "Kentucky"]
     
     @IBOutlet weak var state1: UILabel!
     @IBOutlet weak var state2: UILabel!
@@ -34,26 +35,6 @@ class GameViewController: UIViewController
     @IBOutlet weak var label9: UILabel!
     @IBOutlet weak var label10: UILabel!
     
-    /*class States
-    {
-        let name:String
-        
-        init(name:String)
-        {
-            self.name = name
-        }
-    }
-    let minnesota = States(name:"Minnesota")
-    let connecticut = States(name:"Connecticut")
-    let newMexico = States(name:"New Mexico")
-    let maryland = States(name:"Maryland")
-    let michigan = States(name:"Michigan")*/
-    
-    var answer = ["Minnesota", "Connecticut", "New Mexico", "Maryland", "Michigan"]
-    
-
-
-
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent!)
     {
         for touch in touches
@@ -99,10 +80,7 @@ class GameViewController: UIViewController
 
         state4.center = CGPoint(x: 139.0, y: 440.0)
     }
-    /*override func touchesEnded(_ touches: Set<UITouch>, with event: UIEvent?)
-    {
-        if
-    }*/
+ 
     @IBAction func playAgainButton(_ sender: Any)
     {
         state1.text = "\(answer[randomNumber(number: answer.count)])"
@@ -114,7 +92,6 @@ class GameViewController: UIViewController
         state7.text = "\(answer[randomNumber(number: answer.count)])"
         state8.text = "\(answer[randomNumber(number: answer.count)])"
         state9.text = "\(answer[randomNumber(number: answer.count)])"
-        state10.text = "\(answer[randomNumber(number: answer.count)])"
     }
     
     func randomNumber(number: Int) -> Int
