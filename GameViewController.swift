@@ -11,7 +11,7 @@ import UIKit
 class GameViewController: UIViewController
 {
     var location = CGPoint(x: 0, y: 0)
-    
+    var answer = ["Florida", "Illinois", "Georgia", "North Carolina", "Washington", "Missouri", "Minnesota", "South Carolina", "Kentucky"]
     
     @IBOutlet weak var state1: UILabel!
     @IBOutlet weak var state2: UILabel!
@@ -92,7 +92,6 @@ class GameViewController: UIViewController
         state7.text = "\(answer[randomNumber(number: answer.count)])"
         state8.text = "\(answer[randomNumber(number: answer.count)])"
         state9.text = "\(answer[randomNumber(number: answer.count)])"
-        state10.text = "\(answer[randomNumber(number: answer.count)])"
     }
     
     func randomNumber(number: Int) -> Int
