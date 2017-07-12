@@ -11,7 +11,7 @@ import UIKit
 class GameViewController: UIViewController
 {
     var location = CGPoint(x: 0, y: 0)
-    var states = ["Florida", "Illinois", "Georgia", "North Carolina", "Washington", "Missouri", "Minnesota", "South Carolina", "Kentucky"]
+    
     
     @IBOutlet weak var state1: UILabel!
     @IBOutlet weak var state2: UILabel!
@@ -80,10 +80,7 @@ class GameViewController: UIViewController
 
         state4.center = CGPoint(x: 139.0, y: 440.0)
     }
-    /*override func touchesEnded(_ touches: Set<UITouch>, with event: UIEvent?)
-    {
-        if
-    }*/
+ 
     @IBAction func playAgainButton(_ sender: Any)
     {
         state1.text = "\(answer[randomNumber(number: answer.count)])"
