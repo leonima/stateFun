@@ -34,7 +34,7 @@ class GameViewController: UIViewController
     @IBOutlet weak var label9: UILabel!
     @IBOutlet weak var label10: UILabel!
     
-    class States
+    /*class States
     {
         let name:String
         
@@ -47,7 +47,9 @@ class GameViewController: UIViewController
     let connecticut = States(name:"Connecticut")
     let newMexico = States(name:"New Mexico")
     let maryland = States(name:"Maryland")
-    let michigan = States(name:"Michigan")
+    let michigan = States(name:"Michigan")*/
+    
+    var answer = ["Minnesota", "Connecticut", "New Mexico", "Maryland", "Michigan"]
     
 
 
@@ -87,10 +89,37 @@ class GameViewController: UIViewController
         
     }
     
+    @IBAction func PanGesture(_ sender: UIPanGestureRecognizer)
+    {
+        state1.center = CGPoint(x: 139.666656494141, y: 304.666656494141)
+        
+        state2.center = CGPoint(x: 139.666656494141, y: 350.33332824707)
+        
+        state3.center = CGPoint(x: 139.0, y: 395.33332824707)
+
+        state4.center = CGPoint(x: 139.0, y: 440.0)
+    }
     /*override func touchesEnded(_ touches: Set<UITouch>, with event: UIEvent?)
     {
         if
     }*/
+    @IBAction func playAgainButton(_ sender: Any)
+    {
+        state1.text = "\(answer[randomNumber(number: answer.count)])"
+        state2.text = "\(answer[randomNumber(number: answer.count)])"
+        state3.text = "\(answer[randomNumber(number: answer.count)])"
+        state4.text = "\(answer[randomNumber(number: answer.count)])"
+        state5.text = "\(answer[randomNumber(number: answer.count)])"
+        state6.text = "\(answer[randomNumber(number: answer.count)])"
+        state7.text = "\(answer[randomNumber(number: answer.count)])"
+        state8.text = "\(answer[randomNumber(number: answer.count)])"
+        state9.text = "\(answer[randomNumber(number: answer.count)])"
+        state10.text = "\(answer[randomNumber(number: answer.count)])"
+    }
     
+    func randomNumber(number: Int) -> Int
+    {
+        return Int(arc4random_uniform(UInt32(number)))
+    }
     
 }
