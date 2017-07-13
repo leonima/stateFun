@@ -81,7 +81,7 @@ class GameViewController: UIViewController
         state4.center = CGPoint(x: 139.0, y: 440.0)
     }
  
-    @IBAction func playAgainButton(_ sender: Any)
+    @IBAction func playAgainButton(_ sender: UIButton)
     {
         state1.text = "\(answer[randomNumber(number: answer.count)])"
         state2.text = "\(answer[randomNumber(number: answer.count)])"
