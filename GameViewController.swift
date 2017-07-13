@@ -11,9 +11,12 @@ import UIKit
 class GameViewController: UIViewController
 {
     var location = CGPoint(x: 0, y: 0)
-    var states = ["Florida", "Illinois", "Georgia", "North Carolina", "Washington", "Missouri", "Minnesota", "South Carolina", "Kentucky", "Alabama", "Alaska", "Arizona", "Arkansas", "California", "Colorado", "Connecticut", "Delaware", "Hawaii", "Idaho", "Indiana", "Iowa", "Kansas", "Louisiana", "Maine", "Maryland", "Massachusetts", "Michigan", "Mississippi", "Montana", "Nebraska", "Nevada", "New Hampshire", "New Jersey", "New Mexico", "New York", "North Dakota", "Ohio", "Oklahoma", "Oregon", "Pennsylvania", "Rhode Island", "South Dakota", "Tennessee", "Texas", "Utah", "Vermont", "Virginia", "West Virginia", "Wisconsin", "Wyoming"]
+    var states = ["Florida", "Illinois", "Georgia", "North Carolina", "Washington", "Missouri", "Minnesota", "South Carolina", "Kentucky"] //, //"Alabama", "Alaska", "Arizona", "Arkansas", "California", "Colorado", "Connecticut", "Delaware", "Hawaii", "Idaho", "Indiana", "Iowa", "Kansas", "Louisiana", "Maine", "Maryland", "Massachusetts", "Michigan", "Mississippi", "Montana", "Nebraska", "Nevada", "New Hampshire", "New Jersey", "New Mexico", "New York", "North Dakota", "Ohio", "Oklahoma", "Oregon", "Pennsylvania", "Rhode Island", "South Dakota", "Tennessee", "Texas", "Utah", "Vermont", "Virginia", "West Virginia", "Wisconsin", "Wyoming"]
+    var tap = 0
+    var selected = ""
+
     
-    var labels = [UILabel]()
+    var stateLabels = [UILabel]()
     @IBOutlet weak var state1: UILabel!
     @IBOutlet weak var state2: UILabel!
     @IBOutlet weak var state3: UILabel!
@@ -24,6 +27,7 @@ class GameViewController: UIViewController
     @IBOutlet weak var state8: UILabel!
     @IBOutlet weak var state9: UILabel!
     
+    var blankLabels = [UILabel]()
     @IBOutlet weak var label1: UILabel!
     @IBOutlet weak var label2: UILabel!
     @IBOutlet weak var label3: UILabel!
@@ -50,147 +54,204 @@ class GameViewController: UIViewController
         
     {
         super.viewDidLoad()
-        labels = [state1, state2, state3, state4, state5, state6, state7, state8, state9]
+        stateLabels = [state1, state2, state3, state4, state5, state6, state7, state8, state9]
         images = [image1, image2, image3, image4, image5, image6, image7, image8, image9]
+        blankLabels = [label1, label2, label3, label4,label5, label6, label7, label8, label9]
         playAgain()
     }
     
-    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?)
+//    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?)
+//    {
+////        for touch in touches
+////        {
+////            let location = touch.location(in: self.view)
+////            
+////            for state in labels
+////            {
+////                if state.frame.contains(location)
+////                {
+////                    state.center = location
+////                }
+////            }
+////            if state1.frame.contains(location)
+////            {
+////                state1.center = location
+////            }
+////            else if state2.frame.contains(location)
+////            {
+////                state2.center = location
+////            }
+////            else if state3.frame.contains(location)
+////             {
+////             state3.center = location
+////             }
+////             else if state4.frame.contains(location)
+////             {
+////             state4.center = location
+////             }
+////             else if state5.frame.contains(location)
+////             {
+////             state5.center = location
+////             }
+////             else if state6.frame.contains(location)
+////             {
+////             state6.center = location
+////             }
+////             else if state7.frame.contains(location)
+////             {
+////             state7.center = location
+////             }
+////             else if state8.frame.contains(location)
+////             {
+////             state8.center = location
+////             }
+////             else if state9.frame.contains(location)
+////             {
+////             state9.center = location
+////             }
+////            
+//        }
+//    }
+//    
+//    override func touchesMoved(_ touches: Set<UITouch>, with event: UIEvent?)
+//    {
+////        for touch in touches
+////        {
+////            let location = touch.location(in: self.view)
+////            
+////            for state in labels
+////            {
+////                if state.frame.contains(location)
+////                {
+////                    state.center = location
+////                }
+////            }
+////            if state1.frame.contains(location)
+////            {
+////                state1.center = location
+////            }
+////            else if state2.frame.contains(location)
+////            {
+////                state2.center = location
+////            }
+////            else if state3.frame.contains(location)
+////             {
+////             state3.center = location
+////             }
+////             else if state4.frame.contains(location)
+////             {
+////             state4.center = location
+////             }
+////             else if state5.frame.contains(location)
+////             {
+////             state5.center = location
+////             }
+////             else if state6.frame.contains(location)
+////             {
+////             state6.center = location
+////             }
+////             else if state7.frame.contains(location)
+////             {
+////             state7.center = location
+////             }
+////             else if state8.frame.contains(location)
+////             {
+////             state8.center = location
+////             }
+////             else if state9.frame.contains(location)
+////             {
+////             state9.center = location
+////             }
+////            
+//        }
+//        
+//    }
+
+    @IBAction func onTap(_ sender: UITapGestureRecognizer)
     {
-        for touch in touches
+        
+        if tap == 0
         {
-            let location = touch.location(in: self.view)
-            
-            if state1.frame.contains(location)
+            for state in stateLabels
             {
-                state1.center = location
+                let location = sender.location(in: self.view)
+                if state.frame.contains(location)
+                {
+                    state.backgroundColor = UIColor.green
+                    tap = 1
+                    selected = state.text!
+                }
             }
-            else if state2.frame.contains(location)
+        }
+        if tap == 1
+        {
+            for blank in blankLabels
             {
-                state2.center = location
+                let location = sender.location(in: self.view)
+                if blank.frame.contains(location)
+                {
+                    blank.backgroundColor = UIColor.magenta
+                    blank.text = selected
+                    tap = 0
+                    selected = ""
+                }
             }
-            else if state3.frame.contains(location)
-             {
-             state3.center = location
-             }
-             else if state4.frame.contains(location)
-             {
-             state4.center = location
-             }
-             else if state5.frame.contains(location)
-             {
-             state5.center = location
-             }
-             else if state6.frame.contains(location)
-             {
-             state6.center = location
-             }
-             else if state7.frame.contains(location)
-             {
-             state7.center = location
-             }
-             else if state8.frame.contains(location)
-             {
-             state8.center = location
-             }
-             else if state9.frame.contains(location)
-             {
-             state9.center = location
-             }
-            
         }
     }
     
-    override func touchesMoved(_ touches: Set<UITouch>, with event: UIEvent?)
-    {
-        for touch in touches
-        {
-            let location = touch.location(in: self.view)
-            
-            if state1.frame.contains(location)
-            {
-                state1.center = location
-            }
-            else if state2.frame.contains(location)
-            {
-                state2.center = location
-            }
-            else if state3.frame.contains(location)
-             {
-             state3.center = location
-             }
-             else if state4.frame.contains(location)
-             {
-             state4.center = location
-             }
-             else if state5.frame.contains(location)
-             {
-             state5.center = location
-             }
-             else if state6.frame.contains(location)
-             {
-             state6.center = location
-             }
-             else if state7.frame.contains(location)
-             {
-             state7.center = location
-             }
-             else if state8.frame.contains(location)
-             {
-             state8.center = location
-             }
-             else if state9.frame.contains(location)
-             {
-             state9.center = location
-             }
-            
-        }
-        
-    }
-
     @IBAction func onDrag(_ sender: UIPanGestureRecognizer)
     {
-        for state in labels
-        {
-            if label1.frame.contains(state.center)
-            {
-                state.center = CGPoint(x: 139.67, y: 304.67)
-            }
-            if label2.frame.contains(state.center)
-            {
-                state.center = CGPoint(x: 139.67, y: 350.34)
-            }
-            if label3.frame.contains(state.center)
-            {
-                state.center = CGPoint(x: 139.67, y: 395.80)
-            }
-            if label4.frame.contains(state.center)
-            {
-                state.center = CGPoint(x: 139.67, y: 441.15)
-            }
-            if label5.frame.contains(state.center)
-            {
-                state.center = CGPoint(x: 139.67, y: 486.75)
-            }
-            if label6.frame.contains(state.center)
-            {
-                state.center = CGPoint(x: 139.67, y: 532.30)
-            }
-            if label7.frame.contains(state.center)
-            {
-                state.center = CGPoint(x: 139.67, y: 577.30)
-            }
-            if label8.frame.contains(state.center)
-            {
-                state.center = CGPoint(x: 139.67, y: 623.85)
-            }
-            if label9.frame.contains(state.center)
-            {
-                state.center = CGPoint(x: 139.67, y: 666.75)
-            }
-            
+        print("drag")
+        let location = sender.location(in: self.view)
 
-        }
+        for state in stateLabels
+        {
+                if state.frame.contains(location)
+                {
+                    print("move state")
+                    state.center = location
+                }
+            }
+//            if label1.frame.contains(state.center)
+//            {
+//                state.center = CGPoint(x: 139.67, y: 304.67)
+//            }
+//            if label2.frame.contains(state.center)
+//            {
+//                state.center = CGPoint(x: 139.67, y: 350.34)
+//            }
+//            if label3.frame.contains(state.center)
+//            {
+//                state.center = CGPoint(x: 139.67, y: 395.80)
+//            }
+//            if label4.frame.contains(state.center)
+//            {
+//                state.center = CGPoint(x: 139.67, y: 441.15)
+//            }
+//            if label5.frame.contains(state.center)
+//            {
+//                state.center = CGPoint(x: 139.67, y: 486.75)
+//            }
+//            if label6.frame.contains(state.center)
+//            {
+//                state.center = CGPoint(x: 139.67, y: 532.30)
+//            }
+//            if label7.frame.contains(state.center)
+//            {
+//                state.center = CGPoint(x: 139.67, y: 577.30)
+//            }
+//            if label8.frame.contains(state.center)
+//            {
+//                state.center = CGPoint(x: 139.67, y: 623.85)
+//            }
+//            if label9.frame.contains(state.center)
+//            {
+//                state.center = CGPoint(x: 139.67, y: 666.75)
+//            }
+//            
+//
+//        }
+        
     }
  
    func playAgain()

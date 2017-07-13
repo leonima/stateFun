@@ -37,14 +37,13 @@ class MainViewController: UIViewController, UITableViewDelegate, UITableViewData
         parse(Data: json!)
         //searchBar()
         searchController = UISearchController(searchResultsController: resultsController)
-        myTableView.tableHeaderView = searchController.searchBar
         searchController.searchResultsUpdater = self as? UISearchResultsUpdating
         
         resultsController.tableView.delegate = self
         resultsController.tableView.dataSource = self
     }
     
-    func updateSearchResults(for searchController: UISearchController)
+    /*func updateSearchResults(for searchController: UISearchController)
     {
         filteredArray = states.filter({ (_: [[states]:String]) -> Bool in
             if array.contains(searchController.searchBar.text!)
@@ -57,14 +56,14 @@ class MainViewController: UIViewController, UITableViewDelegate, UITableViewData
             }
         })
         resultsController.tableView.reloadData()
-    }
+    }*/
     
     /*func searchBar(_ searchBar: UISearchBar, textDidChange searchText: String)
     {
         if searchText == ""
         {
-            //let json = try? JSON(data: myData!)
-            //parse(Data: json!)
+            let json = try? JSON(data: myData!)
+            parse(Data: json!)
         }
         else
         {
@@ -97,10 +96,10 @@ class MainViewController: UIViewController, UITableViewDelegate, UITableViewData
         {
             cell.textLabel?.text = filteredArray[indexPath.row]
         }
-        else
+        /*else
         {
             cell.textLabel!.text = states[indexPath.row]
-        }
+        }*/
         cell.textLabel!.text = state["stateName"]
         
         return cell
