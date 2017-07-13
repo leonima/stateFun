@@ -11,7 +11,7 @@ import UIKit
 class GameViewController: UIViewController
 {
     var location = CGPoint(x: 0, y: 0)
-    var states = ["Florida", "Illinois", "Georgia", "North Carolina", "Washington", "Missouri", "Minnesota", "South Carolina", "Kentucky"]
+    var states = ["Florida", "Illinois", "Georgia", "North Carolina", "Washington", "Missouri", "Minnesota", "South Carolina", "Kentucky", "Alabama", "Alaska", "Arizona", "Arkansas", "California", "Colorado", "Connecticut", "Delaware", "Hawaii", "Idaho", "Indiana", "Iowa", "Kansas", "Louisiana", "Maine", "Maryland", "Massachusetts", "Michigan", "Mississippi", "Montana", "Nebraska", "Nevada", "New Hampshire", "New Jersey", "New Mexico", "New York", "North Dakota", "Ohio", "Oklahoma", "Oregon", "Pennsylvania", "Rhode Island", "South Dakota", "Tennessee", "Texas", "Utah", "Vermont", "Virginia", "West Virginia", "Wisconsin", "Wyoming" ]
     
     var labels = [UILabel]()
     @IBOutlet weak var state1: UILabel!
@@ -52,7 +52,7 @@ class GameViewController: UIViewController
         super.viewDidLoad()
         labels = [state1, state2, state3, state4, state5, state6, state7, state8, state9]
         images = [image1, image2, image3, image4, image5, image6, image7, image8, image9]
-        textLabels()
+        playAgain()
     }
     
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?)
@@ -193,38 +193,38 @@ class GameViewController: UIViewController
         }
     }
  
-    @IBAction func playAgainButton(_ sender: UIButton)
-    {
+   func playAgain()
+   {
         let randomIndex = Int(arc4random_uniform(UInt32(states.count)))
-        state1.text = states[2]
-        state2.text = states[7]
-        state3.text = states[1]
-        state4.text = states[0]
-        state5.text = states[3]
-        state6.text = states[5]
-        state7.text = states[4]
-        state8.text = states[6]
-        state9.text = states[8]
-    }
+        let randomIndex1 = Int(arc4random_uniform(UInt32(states.count)))
+        let randomIndex2 = Int(arc4random_uniform(UInt32(states.count)))
+        let randomIndex3 = Int(arc4random_uniform(UInt32(states.count)))
+        let randomIndex4 = Int(arc4random_uniform(UInt32(states.count)))
+        let randomIndex5 = Int(arc4random_uniform(UInt32(states.count)))
+        let randomIndex6 = Int(arc4random_uniform(UInt32(states.count)))
+        let randomIndex7 = Int(arc4random_uniform(UInt32(states.count)))
+        let randomIndex8 = Int(arc4random_uniform(UInt32(states.count)))
+        state1.text = states[randomIndex]
+        state2.text = states[randomIndex1]
+        state3.text = states[randomIndex2]
+        state4.text = states[randomIndex3]
+        state5.text = states[randomIndex4]
+        state6.text = states[randomIndex5]
+        state7.text = states[randomIndex6]
+        state8.text = states[randomIndex7]
+        state9.text = states[randomIndex8]
+   }
     
     @IBAction func checkAnswers(_ sender: Any)
     {
-        checkAnswers(whichLabel: label1, whichState: state4, whichImage: image1)
-        checkAnswers(whichLabel: label2, whichState: state3, whichImage: image2)
-        checkAnswers(whichLabel: label3, whichState: state1, whichImage: image3)
-        checkAnswers(whichLabel: label4, whichState: state5, whichImage: image4)
-        checkAnswers(whichLabel: label5, whichState: state7, whichImage: image5)
-        checkAnswers(whichLabel: label6, whichState: state6, whichImage: image6)
-        checkAnswers(whichLabel: label7, whichState: state8, whichImage: image7)
-        checkAnswers(whichLabel: label8, whichState: state2, whichImage: image8)
-        checkAnswers(whichLabel: label9, whichState: state9, whichImage: image9)
+        checkAnswers()
         for image in images
         {
             image.alpha = 1
         }
     }
     
-    func checkAnswers(whichLabel: UILabel, whichState: UILabel, whichImage: UIImageView)
+    func checkAnswers()
     {
         if whichLabel.frame.contains(whichState.center)
         {
@@ -238,7 +238,7 @@ class GameViewController: UIViewController
     
     @IBAction func playAgainButton(_ sender: Any)
     {
-        textLabels()
+        playAgain()
         state1.center = CGPoint(x: 65, y: 160)
         state2.center = CGPoint(x: 203, y: 160)
         state3.center = CGPoint(x: 341, y: 160)
