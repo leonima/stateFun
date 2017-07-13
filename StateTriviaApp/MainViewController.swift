@@ -63,10 +63,8 @@ class MainViewController: UIViewController, UITableViewDelegate, UITableViewData
     {
         if searchText == ""
         {
-            let path = Bundle.main.path(forResource: "apiQoshish", ofType: "json")
-            let myData = try? Data(contentsOf: URL(fileURLWithPath: path!), options: .alwaysMapped)
-            let json = try? JSON(data: myData!)
-            parse(Data: json!)
+            //let json = try? JSON(data: myData!)
+            //parse(Data: json!)
         }
         else
         {

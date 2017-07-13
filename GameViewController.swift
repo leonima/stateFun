@@ -11,7 +11,7 @@ import UIKit
 class GameViewController: UIViewController
 {
     var location = CGPoint(x: 0, y: 0)
-    var states = ["Florida", "Illinois", "Georgia", "North Carolina", "Washington", "Missouri", "Minnesota", "South Carolina", "Kentucky", "Alabama", "Alaska", "Arizona", "Arkansas", "California", "Colorado", "Connecticut", "Delaware", "Hawaii", "Idaho", "Indiana", "Iowa", "Kansas", "Louisiana", "Maine", "Maryland", "Massachusetts", "Michigan", "Mississippi", "Montana", "Nebraska", "Nevada", "New Hampshire", "New Jersey", "New Mexico", "New York", "North Dakota", "Ohio", "Oklahoma", "Oregon", "Pennsylvania", "Rhode Island", "South Dakota", "Tennessee", "Texas", "Utah", "Vermont", "Virginia", "West Virginia", "Wisconsin", "Wyoming" ]
+    var states = ["Florida", "Illinois", "Georgia", "North Carolina", "Washington", "Missouri", "Minnesota", "South Carolina", "Kentucky", "Alabama", "Alaska", "Arizona", "Arkansas", "California", "Colorado", "Connecticut", "Delaware", "Hawaii", "Idaho", "Indiana", "Iowa", "Kansas", "Louisiana", "Maine", "Maryland", "Massachusetts", "Michigan", "Mississippi", "Montana", "Nebraska", "Nevada", "New Hampshire", "New Jersey", "New Mexico", "New York", "North Dakota", "Ohio", "Oklahoma", "Oregon", "Pennsylvania", "Rhode Island", "South Dakota", "Tennessee", "Texas", "Utah", "Vermont", "Virginia", "West Virginia", "Wisconsin", "Wyoming"]
     
     var labels = [UILabel]()
     @IBOutlet weak var state1: UILabel!
@@ -215,6 +215,11 @@ class GameViewController: UIViewController
         state9.text = states[randomIndex8]
    }
     
+    func checkAnswers()
+    {
+        print("were doomed")
+    }
+    
     @IBAction func checkAnswers(_ sender: Any)
     {
         checkAnswers()
@@ -224,18 +229,7 @@ class GameViewController: UIViewController
         }
     }
     
-    func checkAnswers()
-    {
-        if whichLabel.frame.contains(whichState.center)
-        {
-             whichImage.image = #imageLiteral(resourceName: "check")
-        }
-        else
-        {
-             whichImage.image = #imageLiteral(resourceName: "cross")
-        }
-    }
-    
+  
     @IBAction func playAgainButton(_ sender: Any)
     {
         playAgain()
