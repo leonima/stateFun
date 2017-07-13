@@ -192,8 +192,8 @@ class GameViewController: UIViewController
 
         }
     }
-
-    func textLabels()
+ 
+    @IBAction func playAgainButton(_ sender: UIButton)
     {
         let randomIndex = Int(arc4random_uniform(UInt32(states.count)))
         state1.text = states[2]
