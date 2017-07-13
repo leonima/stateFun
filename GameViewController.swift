@@ -52,7 +52,7 @@ class GameViewController: UIViewController
         super.viewDidLoad()
         labels = [state1, state2, state3, state4, state5, state6, state7, state8, state9]
         images = [image1, image2, image3, image4, image5, image6, image7, image8, image9]
-        textLabels()
+        playAgain()
     }
     
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?)
@@ -193,9 +193,8 @@ class GameViewController: UIViewController
         }
     }
  
-    @IBAction func playAgainButton(_ sender: UIButton)
-    {
-        let randomIndex = Int(arc4random_uniform(UInt32(states.count)))
+   func playAgain()
+   {
         state1.text = states[2]
         state2.text = states[7]
         state3.text = states[1]
@@ -205,7 +204,8 @@ class GameViewController: UIViewController
         state7.text = states[4]
         state8.text = states[6]
         state9.text = states[8]
-    }
+
+   }
     
     @IBAction func checkAnswers(_ sender: Any)
     {
@@ -238,7 +238,7 @@ class GameViewController: UIViewController
     
     @IBAction func playAgainButton(_ sender: Any)
     {
-        textLabels()
+        playAgain()
         state1.center = CGPoint(x: 65, y: 160)
         state2.center = CGPoint(x: 203, y: 160)
         state3.center = CGPoint(x: 341, y: 160)

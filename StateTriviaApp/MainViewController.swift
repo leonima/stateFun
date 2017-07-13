@@ -8,12 +8,21 @@
 
 import UIKit
 
-class MainViewController: UIViewController, UITableViewDelegate, UITableViewDataSource
+class MainViewController: UIViewController, UITableViewDelegate, UITableViewDataSource, UISearchBarDelegate
 {
 
     @IBOutlet weak var myTableView: UITableView!
     
     var states = [[String: String]]()
+    
+    func searchBar()
+    {
+        let searchBar = UISearchBar(frame: CGRect(x: 0, y: 0, width: self.view.frame.width, height: 50))
+        searchBar.delegate = self
+        searchBar.showsScopeBar = true
+        searchBar.tintColor = UIColor.lightGray
+    }
+    
     
     override func viewDidLoad()
     {
@@ -22,8 +31,21 @@ class MainViewController: UIViewController, UITableViewDelegate, UITableViewData
         let myData = try? Data(contentsOf: URL(fileURLWithPath: path!), options: .alwaysMapped)
         let json = try? JSON(data: myData!)
         parse(Data: json!)
+        searchBar()
     }
     
+    func searchBar(_ searchBar: UISearchBar, textDidChange searchText: String)
+    {
+        if searchText == ""
+        {
+            let json = try? JSON(data: myData!)
+            parse(Data: json!)
+        }
+        else
+        {
+            
+        }
+    }
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int
     {
         return states.count
