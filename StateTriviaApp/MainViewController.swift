@@ -8,20 +8,24 @@
 
 import UIKit
 
-class MainViewController: UIViewController, UITableViewDelegate, UITableViewDataSource, UISearchBarDelegate
+class MainViewController: UIViewController, UITableViewDelegate, UITableViewDataSource
 {
 
     @IBOutlet weak var myTableView: UITableView!
     
     var states = [[String: String]]()
+    var filteredArray = [String]()
+    var searchController = UISearchController()
+    var resultsController = UITableViewController()
     
-    func searchBar()
+    
+    /*func searchBar()
     {
         let searchBar = UISearchBar(frame: CGRect(x: 0, y: 0, width: self.view.frame.width, height: 50))
         searchBar.delegate = self
         searchBar.showsScopeBar = true
         searchBar.tintColor = UIColor.lightGray
-    }
+    }*/
     
     
     override func viewDidLoad()
@@ -31,10 +35,31 @@ class MainViewController: UIViewController, UITableViewDelegate, UITableViewData
         let myData = try? Data(contentsOf: URL(fileURLWithPath: path!), options: .alwaysMapped)
         let json = try? JSON(data: myData!)
         parse(Data: json!)
-        searchBar()
+        //searchBar()
+        searchController = UISearchController(searchResultsController: resultsController)
+        myTableView.tableHeaderView = searchController.searchBar
+        searchController.searchResultsUpdater = self as? UISearchResultsUpdating
+        
+        resultsController.tableView.delegate = self
+        resultsController.tableView.dataSource = self
     }
     
-    func searchBar(_ searchBar: UISearchBar, textDidChange searchText: String)
+    func updateSearchResults(for searchController: UISearchController)
+    {
+        filteredArray = states.filter({ (_: [[states]:String]) -> Bool in
+            if array.contains(searchController.searchBar.text!)
+            {
+                return true
+            }
+            else
+            {
+                return false
+            }
+        })
+        resultsController.tableView.reloadData()
+    }
+    
+    /*func searchBar(_ searchBar: UISearchBar, textDidChange searchText: String)
     {
         if searchText == ""
         {
@@ -43,19 +68,40 @@ class MainViewController: UIViewController, UITableViewDelegate, UITableViewData
         }
         else
         {
+            if searchBar.selectedScopeButtonIndex == 0
+            {
+                states = states.filter({ (states) -> Bool in
+                    return states.contains(where: searchText.lowercased())
+                })
+            }
             
         }
-    }
+    }*/
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int
     {
-        return states.count
+        if tableView == resultsController.tableView
+        {
+            return filteredArray.count
+        }
+        else
+        {
+            return states.count
+        }
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell
     {
         let cell = myTableView.dequeueReusableCell(withIdentifier: "myCell", for: indexPath)
         let state = states[indexPath.row]
-        cell.textLabel?.text = state["stateName"]
+        if tableView == resultsController.tableView
+        {
+            cell.textLabel?.text = filteredArray[indexPath.row]
+        }
+        else
+        {
+            cell.textLabel!.text = states[indexPath.row]
+        }
+        cell.textLabel!.text = state["stateName"]
         
         return cell
     }
@@ -93,7 +139,7 @@ class MainViewController: UIViewController, UITableViewDelegate, UITableViewData
             if let indexPath = myTableView.indexPathForSelectedRow
             {
                 let state = states[indexPath.row]
-                var dvc = segue.destination as! DetailViewController
+                let dvc = segue.destination as! DetailViewController
                 dvc.detailItem = state
             }
         
