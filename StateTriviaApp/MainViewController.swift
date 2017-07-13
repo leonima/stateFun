@@ -38,8 +38,8 @@ class MainViewController: UIViewController, UITableViewDelegate, UITableViewData
     {
         if searchText == ""
         {
-            let json = try? JSON(data: myData!)
-            parse(Data: json!)
+            //let json = try? JSON(data: myData!)
+            //parse(Data: json!)
         }
         else
         {
