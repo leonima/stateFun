@@ -403,7 +403,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="SGb-e1-p10" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1131.8840579710145" y="-607.33695652173913"/>
+            <point key="canvasLocation" x="688" y="-607"/>
         </scene>
         <!--Main View Controller-->
         <scene sceneID="Q76-rH-Fqe">
@@ -471,6 +471,7 @@
                     <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
                     <connections>
                         <outlet property="myTableView" destination="HBj-Ms-GdK" id="Q9t-UB-gfd"/>
+                        <outlet property="searchBar" destination="3Z2-fO-AdY" id="4K0-Vy-HPF"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="2A7-3Z-5Vp" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -813,7 +814,7 @@
                     </connections>
                 </tapGestureRecognizer>
             </objects>
-            <point key="canvasLocation" x="1863.7681159420292" y="-607.33695652173913"/>
+            <point key="canvasLocation" x="1461" y="-607"/>
         </scene>
         <!--Guess View Controller-->
         <scene sceneID="hCR-F5-TT9">
@@ -827,7 +828,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="S8V-RR-MF9">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="S8V-RR-MF9">
                                 <rect key="frame" x="54" y="173" width="307" height="201"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -896,7 +897,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="2hz-8o-BpI" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2630.434782608696" y="-607.33695652173913"/>
+            <point key="canvasLocation" x="2262" y="-607"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="2XN-Es-IR3">
@@ -945,7 +946,7 @@
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" red="0.40000000600000002" green="0.80000001190000003" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" red="0.40000000600000002" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstAttribute="trailingMargin" secondItem="4hM-0Q-Vzj" secondAttribute="trailing" constant="31" id="Lol-hu-cQ1"/>
                             <constraint firstItem="9uT-6F-Kan" firstAttribute="centerY" secondItem="x2o-Rm-9p3" secondAttribute="centerY" id="MFJ-9C-3fN"/>
@@ -1002,7 +1003,7 @@
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Buc-Ym-Obq" sceneMemberID="viewController">
                     <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="jjf-80-kYB">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="jjf-80-kYB">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
