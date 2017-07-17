@@ -8,24 +8,17 @@
 
 import UIKit
 
-class MainViewController: UIViewController, UITableViewDelegate, UITableViewDataSource
+class MainViewController: UIViewController, UITableViewDataSource, UITableViewDelegate, UISearchBarDelegate
 {
 
     @IBOutlet weak var myTableView: UITableView!
+    @IBOutlet weak var searchBar: UISearchBar!
     
-    var states = [[String: String]]()
-    var filteredArray = [String]()
-    var searchController = UISearchController()
-    var resultsController = UITableViewController()
-    
-    
-    /*func searchBar()
-    {
-        let searchBar = UISearchBar(frame: CGRect(x: 0, y: 0, width: self.view.frame.width, height: 50))
-        searchBar.delegate = self
-        searchBar.showsScopeBar = true
-        searchBar.tintColor = UIColor.lightGray
-    }*/
+    var states = ["Alabama", "Alaska", "Arizona", "Arkansas", "California", "Colorado", "Connecticut", "Delaware", "Florida", "Georgia", "Hawaii", "Idaho", "Illinois", "Indiana", "Iowa", "Kansas", "Kentucky", "Louisiana", "Maine", "Maryland", "Massachusetts", "Michigan", "Minnesota", "Mississippi", "Missouri", "Montana", "Nebraska", "Nevada", "New Hampshire", "New Jersey", "New Mexico", "New York", "North Carolina", "North Dakota", "Ohio", "Oklahoma", "Oregon", "Pennsylvania", "Rhode Island", "South Carolina", "South Dakota", "Tennessee", "Texas", "Utah", "Vermont", "Virginia", "Washington", "West Virginia", "Wisconsin", "Wyoming"]
+
+    var stateObjects = [[String:String]]()
+    var searchActive : Bool = false
+    var filtered:[String] = []
     
     
     override func viewDidLoad()
@@ -35,75 +28,77 @@ class MainViewController: UIViewController, UITableViewDelegate, UITableViewData
         let myData = try? Data(contentsOf: URL(fileURLWithPath: path!), options: .alwaysMapped)
         let json = try? JSON(data: myData!)
         parse(Data: json!)
-        //searchBar()
-        searchController = UISearchController(searchResultsController: resultsController)
-        searchController.searchResultsUpdater = self as? UISearchResultsUpdating
-        
-        resultsController.tableView.delegate = self
-        resultsController.tableView.dataSource = self
+        myTableView.delegate = self
+        myTableView.dataSource = self
+        searchBar.delegate = self
     }
     
-    /*func updateSearchResults(for searchController: UISearchController)
+    func searchBarTextDidBeginEditing(_ searchBar: UISearchBar)
     {
-        filteredArray = states.filter({ (_: [[states]:String]) -> Bool in
-            if array.contains(searchController.searchBar.text!)
-            {
-                return true
-            }
-            else
-            {
-                return false
-            }
-        })
-        resultsController.tableView.reloadData()
-    }*/
+        searchActive = true
+    }
     
-    /*func searchBar(_ searchBar: UISearchBar, textDidChange searchText: String)
+    func searchBarTextDidEndEditing(_ searchBar: UISearchBar)
     {
-        if searchText == ""
+        searchActive = false
+    }
+    
+    func searchBarCancelButtonClicked(_ searchBar: UISearchBar)
+    {
+        searchActive = false
+    }
+    
+    func searchBarSearchButtonClicked(_ searchBar: UISearchBar)
+    {
+        searchActive = false
+    }
+    
+    func searchBar(_ searchBar: UISearchBar, textDidChange searchText: String)
+    {
+        filtered = states.filter({ (text) -> Bool in
+            let tmp: NSString = text as NSString
+            let range = tmp.range(of: searchText, options: NSString.CompareOptions.caseInsensitive)
+            return range.location != NSNotFound
+        })
+        if filtered.count == 0
         {
-            let json = try? JSON(data: myData!)
-            parse(Data: json!)
+            searchActive = false
         }
         else
         {
-            if searchBar.selectedScopeButtonIndex == 0
-            {
-                states = states.filter({ (states) -> Bool in
-                    return states.contains(where: searchText.lowercased())
-                })
-            }
-            
+            searchActive = true
         }
-    }*/
+        myTableView.reloadData()
+    }
+
+    func numberOfSectionsInTableView(tableView: UITableView) -> Int
+    {
+        return 1
+    }
+    
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int
     {
-        if tableView == resultsController.tableView
+        if searchActive
         {
-            return filteredArray.count
+            return filtered.count
         }
-        else
-        {
-            return states.count
-        }
+        return states.count
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell
     {
         let cell = myTableView.dequeueReusableCell(withIdentifier: "myCell", for: indexPath)
-        let state = states[indexPath.row]
-        if tableView == resultsController.tableView
+        if searchActive
         {
-            cell.textLabel?.text = filteredArray[indexPath.row]
+            cell.textLabel!.text = filtered[indexPath.row]
         }
-        /*else
+        else
         {
             cell.textLabel!.text = states[indexPath.row]
-        }*/
-        cell.textLabel!.text = state["stateName"]
-        
-        return cell
+        }
+        return (cell)
     }
+
     
     func parse(Data: JSON)
     {
@@ -125,23 +120,21 @@ class MainViewController: UIViewController, UITableViewDelegate, UITableViewData
             let statePic = elements["statePic"].stringValue
             
             let object = ["stateName": stateName, "statePop": statePop, "statehoodYear": statehoodYear, "statehoodNumber": statehoodNumber, "nickName": nickName, "stateCapital": stateCapital, "stateBigCity": stateBigCity, "stateAbbreviation": stateAbbreviation, "stateBird": stateBird, "stateFlower": stateFlower, "stateFish": stateFish, "stateTree": stateTree, "stateFact": stateFact, "statePic": statePic]
-            states.append(object)
-            
+            stateObjects.append(object)
         }
         myTableView.reloadData()
-        
     }
+    
     override func prepare(for segue: UIStoryboardSegue, sender: Any?)
     {
         if segue.identifier == "b"
         {
             if let indexPath = myTableView.indexPathForSelectedRow
             {
-                let state = states[indexPath.row]
+                let state = stateObjects[indexPath.row]
                 let dvc = segue.destination as! DetailViewController
                 dvc.detailItem = state
             }
-        
         }
     }
 }
