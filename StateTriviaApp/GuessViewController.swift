@@ -38,14 +38,129 @@ class GuessViewController: UIViewController, UIPickerViewDataSource, UIPickerVie
     {
          let randomIndex = Int(arc4random_uniform(UInt32(statesImages.count)))
         imageView.image = statesImages[randomIndex]
+        wrongImage.alpha = 0.0
+        rightImage.alpha = 0.0
+        
     }
     
     @IBAction func checkButton(_ sender: UIButton)
     {
-        
+        answerWrong(stateAb: "AK", stateName: "Alaska")
+        answerWrong(stateAb: "AL", stateName: "Alabama")
+        answerWrong(stateAb: "AZ", stateName: "Arizona")
+        answerWrong(stateAb: "AR", stateName: "Arkansas")
+        answerWrong(stateAb: "CA", stateName: "California")
+        answerWrong(stateAb: "CO", stateName: "Colorado")
+        answerWrong(stateAb: "CT", stateName: "Connecticut")
+        answerWrong(stateAb: "DE", stateName: "Delaware")
+        answerWrong(stateAb: "FL", stateName: "Florida")
+        answerWrong(stateAb: "HA", stateName: "Hawaii")
+        answerWrong(stateAb: "ID", stateName: "Idaho")
+        answerWrong(stateAb: "IL", stateName: "Illinois")
+        answerWrong(stateAb: "IN", stateName: "Indiana")
+        answerWrong(stateAb: "IO", stateName: "Iowa")
+        answerWrong(stateAb: "KA", stateName: "Kansas")
+        answerWrong(stateAb: "KE", stateName: "Kentucky")
+        answerWrong(stateAb: "LA", stateName: "Louisiana")
+        answerWrong(stateAb: "ME", stateName: "Maine")
+        answerWrong(stateAb: "MD", stateName: "Maryland")
+        answerWrong(stateAb: "MA", stateName: "Massachussetts")
+        answerWrong(stateAb: "MI", stateName: "Michigan")
+        answerWrong(stateAb: "MN", stateName: "Minnesota")
+        answerWrong(stateAb: "MS", stateName: "Mississippi")
+        answerWrong(stateAb: "MO", stateName: "Missouri")
+        answerWrong(stateAb: "MT", stateName: "Montana")
+        answerWrong(stateAb: "NE", stateName: "Nebraska")
+        answerWrong(stateAb: "MV", stateName: "Nevada")
+        answerWrong(stateAb: "NH", stateName: "New Hampshire")
+        answerWrong(stateAb: "NJ", stateName: "New Jersey")
+        answerWrong(stateAb: "NM", stateName: "New Mexico")
+        answerWrong(stateAb: "NY", stateName: "New York")
+        answerWrong(stateAb: "NC", stateName: "North Carolina")
+        answerWrong(stateAb: "ND", stateName: "North Dakota")
+        answerWrong(stateAb: "OH", stateName: "Ohio")
+        answerWrong(stateAb: "OK", stateName: "Oklahoma")
+        answerWrong(stateAb: "OR", stateName: "Oregon")
+        answerWrong(stateAb: "PA", stateName: "Pennsylvania")
+        answerWrong(stateAb: "RI", stateName: "Rhode Island")
+        answerWrong(stateAb: "SC", stateName: "South Carolina")
+        answerWrong(stateAb: "SD", stateName: "South Dakota")
+        answerWrong(stateAb: "TN", stateName: "Tennessee")
+        answerWrong(stateAb: "TX", stateName: "Texas")
+        answerWrong(stateAb: "UT", stateName: "Utah")
+        answerWrong(stateAb: "VT", stateName: "Vermont")
+        answerWrong(stateAb: "VA", stateName: "Virginia")
+        answerWrong(stateAb: "WA", stateName: "Washington")
+        answerWrong(stateAb: "WV", stateName: "West Virgina")
+        answerWrong(stateAb: "WI", stateName: "Wisconsin")
+        answerWrong(stateAb: "WY", stateName: "Wyoming")
+        answerRight(stateAb: "AK", stateName: "Alaska")
+        answerRight(stateAb: "AL", stateName: "Alabama")
+        answerRight(stateAb: "AZ", stateName: "Arizona")
+        answerRight(stateAb: "AR", stateName: "Arkansas")
+        answerRight(stateAb: "CA", stateName: "California")
+        answerRight(stateAb: "CO", stateName: "Colorado")
+        answerRight(stateAb: "CT", stateName: "Connecticut")
+        answerRight(stateAb: "DE", stateName: "Delaware")
+        answerRight(stateAb: "FL", stateName: "Florida")
+        answerRight(stateAb: "HA", stateName: "Hawaii")
+        answerRight(stateAb: "ID", stateName: "Idaho")
+        answerRight(stateAb: "IL", stateName: "Illinois")
+        answerRight(stateAb: "IN", stateName: "Indiana")
+        answerRight(stateAb: "IO", stateName: "Iowa")
+        answerRight(stateAb: "KA", stateName: "Kansas")
+        answerRight(stateAb: "KE", stateName: "Kentucky")
+        answerRight(stateAb: "LA", stateName: "Louisiana")
+        answerRight(stateAb: "ME", stateName: "Maine")
+        answerRight(stateAb: "MD", stateName: "Maryland")
+        answerRight(stateAb: "MA", stateName: "Massachussetts")
+        answerRight(stateAb: "MI", stateName: "Michigan")
+        answerRight(stateAb: "MN", stateName: "Minnesota")
+        answerRight(stateAb: "MS", stateName: "Mississippi")
+        answerRight(stateAb: "MO", stateName: "Missouri")
+        answerRight(stateAb: "MT", stateName: "Montana")
+        answerRight(stateAb: "NE", stateName: "Nebraska")
+        answerRight(stateAb: "MV", stateName: "Nevada")
+        answerRight(stateAb: "NH", stateName: "New Hampshire")
+        answerRight(stateAb: "NJ", stateName: "New Jersey")
+        answerRight(stateAb: "NM", stateName: "New Mexico")
+        answerRight(stateAb: "NY", stateName: "New York")
+        answerRight(stateAb: "NC", stateName: "North Carolina")
+        answerRight(stateAb: "ND", stateName: "North Dakota")
+        answerRight(stateAb: "OH", stateName: "Ohio")
+        answerRight(stateAb: "OK", stateName: "Oklahoma")
+        answerRight(stateAb: "OR", stateName: "Oregon")
+        answerRight(stateAb: "PA", stateName: "Pennsylvania")
+        answerRight(stateAb: "RI", stateName: "Rhode Island")
+        answerRight(stateAb: "SC", stateName: "South Carolina")
+        answerRight(stateAb: "SD", stateName: "South Dakota")
+        answerRight(stateAb: "TN", stateName: "Tennessee")
+        answerRight(stateAb: "TX", stateName: "Texas")
+        answerRight(stateAb: "UT", stateName: "Utah")
+        answerRight(stateAb: "VT", stateName: "Vermont")
+        answerRight(stateAb: "VA", stateName: "Virginia")
+        answerRight(stateAb: "WA", stateName: "Washington")
+        answerRight(stateAb: "WV", stateName: "West Virgina")
+        answerRight(stateAb: "WI", stateName: "Wisconsin")
+        answerRight(stateAb: "WY", stateName: "Wyoming")
     }
     
-    
+    func answerWrong(stateAb: String, stateName: String)
+    {
+        if imageView.image == UIImage(named: stateAb) && answerTextField.text != stateName && answerTextField.text != ""
+        {
+            wrongImage.alpha = 1.0
+            rightImage.alpha = 0.0
+        }
+    }
+    func answerRight(stateAb: String, stateName: String)
+    {
+        if imageView.image == UIImage(named: stateAb) && answerTextField.text != stateName && answerTextField.text != ""
+        {
+            wrongImage.alpha = 0.0
+            rightImage.alpha = 1.0
+        }
+    }
     func numberOfComponents(in pickerView: UIPickerView) -> Int
     {
         return 1
