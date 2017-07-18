@@ -155,7 +155,7 @@ class GuessViewController: UIViewController, UIPickerViewDataSource, UIPickerVie
     }
     func answerRight(stateAb: String, stateName: String)
     {
-        if imageView.image == UIImage(named: stateAb) && answerTextField.text != stateName && answerTextField.text != ""
+        if imageView.image == UIImage(named: stateAb) && answerTextField.text == stateName && answerTextField.text != ""
         {
             wrongImage.alpha = 0.0
             rightImage.alpha = 1.0
